@@ -1,11 +1,36 @@
 import './App.css'
+import {ContactUs} from '../ContactUs'
+import {CreateArrangement} from '../CreateArrangement'
+import {Register} from '../Register'
+import {SatisfiedCustomers} from '../SatisfiedCustomers'
+import {SeasonalAdvertising} from '../SeasonalAdvertising'
+import {ShoppingCart} from '../ShoppingCart'
+import {SignIn} from '../SignIn'
+import {Store} from '../Store'
+import { Loading } from '../Loading'
+import { Empty } from '../Empty'
+
 
 function App() {
 
   return (
     <>
-      <section>
-        <p>Hola mundo!</p>
+      <section className='App'>
+        <p className='message bg-rose-500'>Hola mundoo!</p>
+        <ContactUs/>
+        <CreateArrangement/>
+        <Register/>
+        <SatisfiedCustomers/>
+        <SeasonalAdvertising/>
+        <ShoppingCart/>
+        <SignIn/>
+        <Store/>
+
+
+        <Loading/>
+        {/* <Error/> */}
+        <Empty/>
+
       </section>
     </>
   )

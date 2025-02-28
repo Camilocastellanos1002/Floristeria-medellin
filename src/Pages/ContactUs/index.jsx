@@ -1,8 +1,11 @@
+import { Layout } from "../../Components/Layout";
 
 function ContactUs(){
     return (
         <>
-            <p>Contactanos!</p>
+             <Layout className='contact-us'>
+                <p className='message bg-rose-500'>Contactanos!</p>
+            </Layout>    
         </>
     );
 }

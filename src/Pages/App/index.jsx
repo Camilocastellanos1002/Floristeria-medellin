@@ -13,6 +13,7 @@ function App() {
           <AppRoutes/> 
           <Navbar/>
         </BrowserRouter>
+
       </section>
     </>
   )

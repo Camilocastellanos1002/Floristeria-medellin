@@ -1,10 +1,12 @@
-
+import { Layout } from "../../Components/Layout";
+import { Card } from "../../Components/Card";
 function Home(){
     return(
         <>
-            <section className='Home'>
+            <Layout className='Home'>
                 <p className='message bg-rose-500'>Bienvenido!</p>
-            </section>    
+                <Card/>
+            </Layout>    
         </>
     );
 

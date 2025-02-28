@@ -1,36 +1,18 @@
+
+import { AppRoutes } from '../../Routes';
+import { BrowserRouter } from 'react-router-dom';
+import { Navbar } from '../../Components/Navbar';
+
 import './App.css'
-import {ContactUs} from '../ContactUs'
-import {CreateArrangement} from '../CreateArrangement'
-import {Register} from '../Register'
-import {SatisfiedCustomers} from '../SatisfiedCustomers'
-import {SeasonalAdvertising} from '../SeasonalAdvertising'
-import {ShoppingCart} from '../ShoppingCart'
-import {SignIn} from '../SignIn'
-import {Store} from '../Store'
-import { Loading } from '../Loading'
-import { Empty } from '../Empty'
-
-
+ {/* Encapsular el AppRoutes en BrowserRouter, para gue dependiendo del path se pueda visualizar la pagina deseada */}
 function App() {
-
   return (
     <>
-      <section className='App'>
-        <p className='message bg-rose-500'>Hola mundoo!</p>
-        <ContactUs/>
-        <CreateArrangement/>
-        <Register/>
-        <SatisfiedCustomers/>
-        <SeasonalAdvertising/>
-        <ShoppingCart/>
-        <SignIn/>
-        <Store/>
-
-
-        <Loading/>
-        {/* <Error/> */}
-        <Empty/>
-
+      <section className='App bg-rose-500'>
+        <BrowserRouter>
+          <AppRoutes/> 
+          <Navbar/>
+        </BrowserRouter>
       </section>
     </>
   )

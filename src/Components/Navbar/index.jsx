@@ -1,9 +1,10 @@
 import { NavLink } from "react-router-dom";
 import { Menu } from "../../Components/Menu";
 import React from "react";
-// import { TheContext } from "../../Context";
-
+import logo from '../../assets/logo.png';
 import storeSVG from '../../assets/building-store.svg';
+import { useContext } from "react";
+import { ShoppingCartContext } from "../../Context";
 
 
 
@@ -15,9 +16,12 @@ function Navbar() {
 
     const activeStyle = 'underline underline-offset-4'
 
+    const context = useContext(ShoppingCartContext);
+
     return (
      <>
-        <nav className='flex justify-between items-center fixed z-10  top-0 w-full py-5 px-8 text-5m font-light'>
+        <nav className='flex justify-between items-center fixed z-10  top-0 w-full py-2 px-5 text-5m font-light'>
+                <img src={logo} alt="logo" width="150px"/>  
             <ul className='grid grid-template-rows items-center gap-2'>
                 <Menu className='font-semibold'/>
                     <li>
@@ -132,7 +136,7 @@ function Navbar() {
                             }>
                         <span>
                             <img src={storeSVG} alt="Tienda"/>
-                            0
+                            {context.count}
                         </span>
                     </NavLink>
                 </li>

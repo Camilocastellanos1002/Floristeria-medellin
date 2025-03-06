@@ -2,20 +2,20 @@
 import { AppRoutes } from '../../Routes';
 import { BrowserRouter } from 'react-router-dom';
 import { Navbar } from '../../Components/Navbar';
+import { ShoppingCartProvider } from '../../Context';
 
 import './App.css'
  {/* Encapsular el AppRoutes en BrowserRouter, para gue dependiendo del path se pueda visualizar la pagina deseada */}
 function App() {
   return (
-    <>
+    <ShoppingCartProvider>
       <section className='App bg-rose-500'>
         <BrowserRouter>
           <AppRoutes/> 
           <Navbar/>
         </BrowserRouter>
-
       </section>
-    </>
+    </ShoppingCartProvider>
   )
 }
 

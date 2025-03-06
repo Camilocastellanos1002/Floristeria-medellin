@@ -1,21 +1,21 @@
-import React from "react";
+import {createContext, useState} from "react";
 
-const TheContext = React.createContext();
-
-
-function contextProvider({children}){
-    const [openModal, setOpenModal] = React.useState(false);
+const ShoppingCartContext = createContext();
 
 
+function ShoppingCartProvider({children}){
+    
+    const [count, setCount] = useState(0);
+    // console.log('contador del carro: '+ count);
+    
     return(
-        <TheContext.Provider
-            value={{
-                openModal,
-                setOpenModal
-            }}>
-            {children}
-        </TheContext.Provider>
+        <ShoppingCartContext.Provider 
+            value={
+                {count, setCount}
+            }>
+            {children}   
+        </ShoppingCartContext.Provider>
     );
 }
 
-export {TheContext,contextProvider}
+export {ShoppingCartContext,ShoppingCartProvider}

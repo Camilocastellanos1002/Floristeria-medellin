@@ -1,5 +1,7 @@
 import { useContext} from "react";
 import { ShoppingCartContext } from "../../Context";
+import { PlusIcon } from '@heroicons/react/24/solid'
+
 
 function Card (data){
 
@@ -12,12 +14,14 @@ function Card (data){
                     <span className='absolute bottom-0 left-0 bg-white/60 rounded-lg text-black text-xs m-2 px-2 py-0.5'>{data.data.category.name}</span>
                     <img className='w-full h-full object-cover rounded-lg' src={data.data.images[0]} alt="x"></img>
                     <div 
-                        className='absolute top-0 right-0  flex justify-center items-center m-1 bg-white w-6 h-6 rounded-full p-2 text-black'
+                        className='absolute top-1 right-1  flex justify-center items-center m-1 bg-white w-7 h-7 rounded-full p-2 text-black'
                             //se crea el evento en el que al dar click se aumenta el contador del carrito
                             onClick={
                                 () => context.setCount(context.count + 1)} 
-                    >+</div>
-                    <div className='absolute top-8 right-0 flex justify-center items-center mt-1 mr-1 bg-white w-6 h-6 rounded-full p-2 text-black'>?</div>
+                    >
+                        <PlusIcon className='h-6 w-6 text-black'></PlusIcon> 
+                    </div>
+                    {/* <div className='absolute top-8 right-0 flex justify-center items-center mt-1 mr-1 bg-white w-6 h-6 rounded-full p-2 text-black'>?</div> */}
                 </figure>
                 <p className='flex justify-between'> 
                     <span className='text-2 font-bold text-rose-500 p-3'>{data.data.title}</span>

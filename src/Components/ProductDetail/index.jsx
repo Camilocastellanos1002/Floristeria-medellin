@@ -1,15 +1,34 @@
 import { XMarkIcon } from '@heroicons/react/24/solid'
+import { ShoppingCartContext } from '../../Context';
+import { useContext } from 'react';
 
 function ProductDetail() {
+
+  const context = useContext(ShoppingCartContext); //leer el estado global del carrito
+  console.log(context.productToShow);
+  
   return (
 
-    <aside className=' flex justify-center fixed top-60 left-120 right-120 bottom-40 bg-white opacity-85 shadow-2xl rounded-lg'>
-      <section className='flex justify-around items-center gap-70 fixed p-2'>
-        <h2 className='font-medium text-xl'>Descripción</h2>
+    //forma de agregar logica al modal de detalle de producto
+    <aside 
+      className={`${context.isProductDetailOpen ? 'grid' : 'hidden'} grid-rows-2 m-1 p-2 justify-center fixed top-50 bottom-30 left-160 right-160 bg-white opacity-85 shadow-2xl rounded-lg flex-nowrap`}>
+      <section className='flex flex-nowrap fixed p-2 items-center justify-between m-2 w-150 bg-black shadow-2xl rounded-lg'>
+        <h2 className='font-medium text-xl text-rose-500'>Descripción</h2>
         <div>
-          <XMarkIcon className='h-6 w-6 text-black'/>
+          <XMarkIcon className={` h-6 w-6 text-white`}/>
         </div>
       </section>
+      <figure className='w-full h-full px-3 py-3 mt-10'>
+        <img 
+          className='w-full h-full rounded-l-lg px-20' 
+          src={context.productToShow.images} alt={context.productToShow.title}>
+        </img>
+        <p className='flex flex-col p-3 gap-2'>
+          <span className='font-medium text-2xl text-rose-500'>${context.productToShow.price}.000</span>
+          <span className='font-medium text-md'>{context.productToShow.title}</span>
+          <span className='font-light text-sm justify-center'>{context.productToShow.description}</span>
+        </p>
+      </figure>
     </aside>
   );
 }

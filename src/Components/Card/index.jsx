@@ -7,9 +7,19 @@ function Card (data){
 
     const context = useContext(ShoppingCartContext); //leer el estado global del carrito
 
+    const showProductDetail = 
+        (ProductDetail) => { //función para abrir el modal de detalle de producto
+        context.openProductDetail();
+        context.setProductToShow(ProductDetail);
+    }
+
     return (
         <>
-            <section className='card-container bg-white cursor-pointer w-86 h-110 mt-1 rounded-lg mb-5'>
+            <section 
+                className='card-container bg-white cursor-pointer w-86 h-110 mt-1 rounded-lg mb-5'
+                onClick={
+                    () => showProductDetail(data.data) //se crea el evento en el que al dar click se abre el modal de detalle de producto
+                }>
                 <figure className='relative mb-5 w-full h-4/5'>
                     <span className='absolute bottom-0 left-0 bg-white/60 rounded-lg text-black text-xs m-2 px-2 py-0.5'>{data.data.category.name}</span>
                     <img className='w-full h-full object-cover rounded-lg' src={data.data.images[0]} alt="x"></img>

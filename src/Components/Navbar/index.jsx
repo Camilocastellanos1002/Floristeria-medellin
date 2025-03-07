@@ -1,7 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { Menu } from "../../Components/Menu";
 import React from "react";
-import logo from '../../assets/logo.png';
 import { useContext, useState } from "react";
 import { ShoppingCartContext } from "../../Context";
 import { ShoppingCartIcon, Bars4Icon} from '@heroicons/react/24/solid'

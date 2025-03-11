@@ -22,7 +22,7 @@ function Card (data){
             context.openShoppingMenu(); //se abre el modal del shopping cart
             context.closeProductDetail(); //se cierra el modal de detalle de producto para que no se cruce el modal de detalle de producto con el modal del shopping cart
             console.log(productData);
-            console.log(context.cardProducts); 
+            // console.log(context.cardProducts); 
     }
 
     return (

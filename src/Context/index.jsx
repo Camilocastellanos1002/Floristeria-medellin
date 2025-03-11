@@ -8,11 +8,11 @@ function ShoppingCartProvider({children}){
     //estado del contador de productos en el carrito
     const [count, setCount] = useState(0); 
 
-    const [cardProducts, setCardProducts] = useState([]); //estado para almacenar los productos seleccionados, por defecto es un array vacío
     
     //estado que controla el modal de detalle de producto (open/close) y valor por defecto de cerrado
     const [isProductDetailOpen, setIsProductDetailOpen] = useState(false); 
-
+    
+    const [cardProducts, setCardProducts] = useState([]); //estado para almacenar los productos seleccionados, por defecto es un array vacío
     
     function openProductDetail(){   //función para abrir el modal de detalle de producto
         setIsProductDetailOpen(true);

@@ -1,9 +1,12 @@
 import { useContext } from 'react';
 import { XMarkIcon } from '@heroicons/react/24/solid'
 import { ShoppingCartContext } from '../../Context';
+import { OrderCard } from '../OrderCard';
 
 function Shopping(){
     const context = useContext(ShoppingCartContext); //leer el estado global del carrito
+    console.log(context.cardProducts); 
+
 
     return(
         //forma de agregar logica al modal de detalle de producto
@@ -18,6 +21,18 @@ function Shopping(){
                     context.closeShoppingMenu()
                     }}/>
                 </div>
+            </section>
+            <section className='px-6'>
+                {context.cardProducts.map(  //logica para mappear los productos seleccionados que se encuentran añadiendo al carrito
+                    (product) => (
+                        <OrderCard  
+                            key={product.id}
+                            title={product.title}
+                            imageURL={product.images}
+                            price={product.price}
+                        />
+                    )
+                )}
             </section>
         </aside>
 );

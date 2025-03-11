@@ -3,8 +3,7 @@ import React from "react";
 import { useContext, useState } from "react";
 import { ShoppingCartContext } from "../../Context";
 import { ShoppingCartIcon, Bars4Icon} from '@heroicons/react/24/solid'
-
-
+// import { ReactComponent  as Logo } from '../../assets/logo.png';
 
 function Navbar() {
     // const {
@@ -24,15 +23,16 @@ function Navbar() {
 
     return (
      <>
-        <nav className='flex justify-between items-center fixed z-10  top-0 w-full py-2 px-5 text-5m font-light'>
-            <section className="relative">
+        <nav className='flex justify-between flex-nowrap items-center fixed z-10 top-0 w-full py-1 px-1 text-5m font-light'>
+            <section className='flex items-center gap-2'>
+                <img src='/src/assets/logo.png' width='100' alt='' />    
                 <Bars4Icon 
-                    className='h-6 w-6 text-rose-500 cursor-pointer'
+                    className='h-6 w-6 text-rose-500 cursor-pointer ml-2 mt-3'
                     onClick={toggleMenu}>
                 </Bars4Icon>
             </section>
             {isOpen && (
-                <section className={`fixed top-10 left-0 h-200 w-64 bg-white shadow-2xl p-5 border rounded-lg border-white transform transition-transform duration-300 ease-in-out ${
+                <section className={`fixed top-30 left-0 h-200 w-64 bg-white shadow-2xl p-5 border rounded-lg border-white transform transition-transform duration-300 ease-in-out ${
                     isOpen ? 'translate-x-0' : '-translate-x-full'
                 }`}>
                     <ul className={`absolute left-0 top-0 w-full h-full bg-white shadow-md p-5 border rounded-lg border-white transition-transform duration-1000 ease-in-out ${
@@ -144,7 +144,10 @@ function Navbar() {
                     </NavLink>
                 </li>
                 <li className='flex items-center justify-center'>
-                    <ShoppingCartIcon className='h-6 w-6 text-rose-500'/>
+                    <NavLink to={'/shopping-cart'}>
+                        <ShoppingCartIcon 
+                            className='h-6 w-6 text-rose-500 cursor-pointer'/>
+                    </NavLink>
                     <span>
                         {context.count}
                     </span>

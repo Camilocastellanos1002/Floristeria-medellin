@@ -13,6 +13,18 @@ function Card (data){
         context.setProductToShow(ProductDetail);
     }
 
+    const addProductToCart =
+        (event, productData)=>{
+            event.stopPropagation(); //se detiene la propagación del evento
+
+            context.setCount(context.count + 1); //se aumenta el contador del carrito
+            context.setCardProducts([...context.cardProducts, productData]); //se agrega el producto seleccionado al carrito
+            context.openShoppingMenu(); //se abre el modal del shopping cart
+            context.closeProductDetail(); //se cierra el modal de detalle de producto para que no se cruce el modal de detalle de producto con el modal del shopping cart
+            console.log(productData);
+            console.log(context.cardProducts); 
+    }
+
     return (
         <>
             <section 
@@ -27,7 +39,8 @@ function Card (data){
                         className='absolute top-1 right-1  flex justify-center items-center m-1 bg-white w-7 h-7 rounded-full p-2 text-black'
                             //se crea el evento en el que al dar click se aumenta el contador del carrito
                             onClick={
-                                () => context.setCount(context.count + 1)} 
+                                (event) => addProductToCart(event,data.data)
+                            } 
                     >
                         <PlusIcon className='h-6 w-6 text-black'></PlusIcon> 
                     </div>

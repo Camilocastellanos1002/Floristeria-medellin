@@ -2,6 +2,7 @@ import { useContext } from 'react';
 import { XMarkIcon } from '@heroicons/react/24/solid'
 import { ShoppingCartContext } from '../../Context';
 import { OrderCard } from '../OrderCard';
+import { totalPrice } from '../../Utils';
 
 function Shopping(){
     const context = useContext(ShoppingCartContext); //leer el estado global del carrito
@@ -42,6 +43,12 @@ function Shopping(){
                         />
                     ) 
                 )}
+            </section>
+            <section className='px-6'>
+                <p className='flex justify-between items-center'>
+                    <span className='font-light'>Total:</span>
+                    <span className='font-medium text-2xl'>${totalPrice(context.cardProducts)}.000</span>
+                </p>
             </section>
         </aside>
 );

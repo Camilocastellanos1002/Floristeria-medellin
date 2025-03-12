@@ -6,6 +6,16 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: "#fa5554", //color principal
+      },
+    },
+  },
   plugins: [
     react(),
     tailwindcss(),
@@ -13,4 +23,5 @@ export default defineConfig({
       exportAsDefault: false,
     }),*/
   ],
+  
 })

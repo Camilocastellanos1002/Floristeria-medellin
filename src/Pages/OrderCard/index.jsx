@@ -18,6 +18,22 @@ function OrderCard({id,title, imageURL, price , handleDelete}){
         }
     };
 
+    //renderizado condicional del icono de basura
+    let renderTrashIcon;
+    let renderMinusIcon;
+    let renderPlusIcon;
+    let renderCounterIcon;
+    //si la función handleDelete existe, entonces renderizar el icono de basura
+    if (handleDelete) {
+        renderTrashIcon =  <TrashIcon className={`h-6 w-6 text-rose-500 cursor-pointer `} onClick={ ()=>{ handleDelete(id); }}/>;
+        renderPlusIcon =  <PlusIcon className='h-6 w-6 text-rose-500 cursor-pointer' onClick={handleIncrease}/>;
+        renderMinusIcon =  <MinusIcon className='h-6 w-6 text-rose-500 cursor-pointer' onClick={handleDecrease}/>;
+        renderCounterIcon= 
+            <div className='border rounded px-2 py-1'>
+                <p className='text-lg font-medium border-rose-500 text-rose-500'>{quantity}</p>
+            </div>
+    }
+
     return(
         <section className='flex justify-between items-center mb-3 gap-5'>
             <section className="flex items-center gap-2">
@@ -27,27 +43,12 @@ function OrderCard({id,title, imageURL, price , handleDelete}){
                 <p className='text-sm font-light flex-nowrap'>{title}</p>
             </section>
             <section className="flex items-center gap-2">
-            <MinusIcon
-                    className='h-6 w-6 text-rose-500 cursor-pointer'
-                    onClick={handleDecrease}
-                />
-                <div className='border rounded px-2 py-1'>
-                    <p className='text-lg font-medium border-rose-500 text-rose-500'>{quantity}</p>
-                </div>
-                <PlusIcon
-                    className='h-6 w-6 text-rose-500 cursor-pointer'
-                    onClick={handleIncrease}
-                />
+                
+                {renderMinusIcon}
+                {renderCounterIcon}
+                {renderPlusIcon}
                 <p className='text-lg font-medium'>${price * quantity}.000</p>
-                {/* <p className='text-lg font-medium'>${price}.000</p> */}
-                <TrashIcon
-                    className={`h-6 w-6 text-rose-500 cursor-pointer `}
-                    onClick={ 
-                        ()=>{
-                            handleDelete(id);
-                    }   
-                }
-                />
+                { renderTrashIcon }
             </section>
         </section>
     )

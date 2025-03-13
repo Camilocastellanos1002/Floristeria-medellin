@@ -4,7 +4,7 @@
  * @param {Array} products //Products es un array de objetos que contiene los productos seleccionados por el usuario
  * @returns  {Number} total //total es el precio total de los productos seleccionados
  */
-function totalPrice (products,quantities) {
+function totalPrice (products) {
 
     let sum =0;
     products.forEach(

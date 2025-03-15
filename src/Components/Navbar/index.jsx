@@ -3,13 +3,8 @@ import React from "react";
 import { useContext, useState } from "react";
 import { ShoppingCartContext } from "../../Context";
 import { ShoppingCartIcon, Bars4Icon} from '@heroicons/react/24/solid'
-// import { ReactComponent  as Logo } from '../../assets/logo.png';
 
 function Navbar() {
-    // const {
-    //     openModal,
-    //     setOpenModal
-    // } = React.useContext(TheContext);
 
     const activeStyle = 'underline underline-offset-4'
 
@@ -34,15 +29,27 @@ function Navbar() {
                 </Bars4Icon>
             </section>
             {isOpen && (
-                <section className={`fixed top-30 left-0 h-200 w-64 bg-white shadow-2xl p-5 border rounded-lg border-white transform transition-transform duration-300 ease-in-out ${
+                <section className={`fixed top-30 left-0 h-80 w-64 bg-white shadow-2xl p-5 border rounded-lg border-white transform transition-transform duration-300 ease-in-out ${
                     isOpen ? 'translate-x-0' : '-translate-x-full'
                 }`}>
-                    <ul className={`absolute left-0 top-0 w-full h-full bg-white shadow-md p-5 border rounded-lg border-white transition-transform duration-1000 ease-in-out ${
+                    <ul className={`absolute left-0 top-0 w-full h-80 bg-white shadow-md p-5 border rounded-lg border-white transition-transform duration-1000 ease-in-out ${
                         isOpen ? 'translate-x-0' : 'translate-x-full'
                     }`}>
                         <li>
                             <NavLink
+                                to='/'
+                                onClick={ ()=>{context.setSearchByCategory()}}
+                                className={
+                                    ({isActive})=>
+                                        isActive ? activeStyle : undefined
+                                }>
+                                Todos
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink
                                 to='/amor-y-romance'
+                                onClick={ ()=>{context.setSearchByCategory('clothes')}}
                                 className={
                                     ({isActive})=>
                                         isActive ? activeStyle : undefined
@@ -53,6 +60,7 @@ function Navbar() {
                         <li>
                             <NavLink 
                                 to='/cumpleaños'
+                                onClick={ ()=>{context.setSearchByCategory('electronics')}}
                                 className={
                                     ({isActive})=>
                                         isActive ? activeStyle : undefined
@@ -63,6 +71,7 @@ function Navbar() {
                         <li>
                             <NavLink 
                                 to='/aniversario'
+                                onClick={ ()=>{context.setSearchByCategory('furnitures')}}
                                 className={
                                     ({isActive})=>
                                         isActive ? activeStyle : undefined
@@ -73,6 +82,7 @@ function Navbar() {
                         <li>
                             <NavLink 
                                 to='/condolencias'
+                                onClick={ ()=>{context.setSearchByCategory('toys')}}
                                 className={
                                     ({isActive})=>
                                         isActive ? activeStyle : undefined
@@ -83,6 +93,7 @@ function Navbar() {
                         <li>
                             <NavLink 
                                 to='/grados'
+                                onClick={ ()=>{context.setSearchByCategory('clothes')}}
                                 className={
                                     ({isActive})=>
                                         isActive ? activeStyle : undefined
@@ -93,6 +104,7 @@ function Navbar() {
                         <li>
                             <NavLink 
                                 to='/desayunos'
+                                onClick={ ()=>{context.setSearchByCategory('electronics')}}
                                 className={
                                     ({isActive})=>
                                         isActive ? activeStyle : undefined
@@ -161,7 +173,7 @@ function Navbar() {
                             className='h-6 w-6 text-rose-500 cursor-pointer'/>
                     </NavLink>
                     <span>
-                        {context.count}
+                        {context.cardProducts.length}
                     </span>
                 </li>
             </ul>

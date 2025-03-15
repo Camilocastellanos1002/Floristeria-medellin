@@ -32,6 +32,14 @@ function AppRoutes (){
         { path: '/empty', element: <Empty/>},
         { path: '/*', element: <Error/>},   //Cual quier otra ruta diferente a la lista (que se denota con el asterisco), generara error
 
+        //paths para realizar el filtrado por categoria pero que se vea reflejado sobre store y no crear otras pages
+        { path: '/amor-y-romance', element: <Store/>},
+        { path: '/cumpleaños', element: <Store/>},
+        { path: '/aniversario', element: <Store/>},
+        { path: '/condolencias', element: <Store/>},
+        { path: '/grados', element: <Store/>},
+        { path: '/desayunos', element: <Store/>},
+
     ]);
     return(routes);
 }

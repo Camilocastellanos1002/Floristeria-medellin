@@ -10,7 +10,7 @@ function ShoppingCartProvider({children}){
     const [items, setItems] = useState(null);
 
     //estado que generara el filtrado de los items que trae el fetch para renderizar en store 
-    const [filteredItems, setFilteredItems] = useState(null);
+    const [filteredItems, setFilteredItems] = useState(null);    
     
     //estado del contador de productos en el carrito
     const [count, setCount] = useState(0); 
@@ -32,9 +32,9 @@ function ShoppingCartProvider({children}){
 
     //estado para obtener articulo por busqueda
     const [searchByTitle, setSearchByTitle] = useState("");
-    // console.log('searchByTitle', searchByTitle);
-     
 
+    //estado para obtener articulos por categoria
+    const [searchByCategory, setSearchByCategory] = useState("");
 
     function openProductDetail(){   //función para abrir el modal de detalle de producto
         setIsProductDetailOpen(true);
@@ -84,16 +84,60 @@ function ShoppingCartProvider({children}){
         )
     }
 
+
+    //funcion que filtrara los items por categoria
+    function filteredItemsByCategory(items, searchByCategory){
+        // console.log('items', items);      
+        return items?.filter(
+            (item)=>(
+                item.category.name.toLowerCase().includes(searchByCategory.toLowerCase()) 
+            )
+        )
+    }
+
+    const filterBy =
+        (searchType, items, searchByTitle, searchByCategory)=>{
+        if (searchType === 'BY_TITLE') {
+            // console.log('title');
+            return filteredItemsByTitle(items,searchByTitle)
+        }
+        if (searchType === 'BY_CATEGORY') {
+            // console.log('category');
+            return filteredItemsByCategory(items,searchByCategory)
+        }
+        if (searchType === 'BY_TITLE_AND_BY_CATEGORY') {
+            // console.log('title and category');
+            return filteredItemsByCategory(items,searchByCategory).filter( 
+                (item)=> item.title.toLowerCase().includes(searchByTitle.toLowerCase())
+            )
+        }
+        if (!searchType) {
+            // console.log('ninguno');
+            return items
+        }
+    }
+
     useEffect(
         ()=>{
-            if (searchByTitle) {
-                setFilteredItems(filteredItemsByTitle(items,searchByTitle))
-            }else {
-                setFilteredItems(items);
+           
+            if (searchByTitle && !searchByCategory ) {       //por titulo y no categoria
+                setFilteredItems(filterBy('BY_TITLE',items,searchByTitle,searchByCategory))
+            }else if (searchByCategory && !searchByTitle) {     //por categoria y no por titulo
+                setFilteredItems(filterBy('BY_CATEGORY',items,searchByTitle,searchByCategory))
+            }else if (searchByCategory && searchByTitle) {      //por titulo y categoria
+                // console.log('xx: ',searchByCategory);
+                // console.log('xxy: ',searchByTitle);
+                setFilteredItems(filterBy('BY_TITLE_AND_BY_CATEGORY',items,searchByTitle,searchByCategory))
+            }else if (!searchByCategory && !searchByTitle) {      //por ninguna de las dos
+                setFilteredItems(filterBy(null,items,searchByTitle,searchByCategory))
             }
-        },[items,searchByTitle]
+        },[items,searchByTitle,searchByCategory]
     )
-    // console.log('filtereditems',filtereditems);
+    // console.log('searchByCategory: ',searchByCategory);
+    // console.log('searchByTitle: ',searchByTitle);
+    // console.log('filtereditems: ',filteredItems);
+
+
     
 
     return(
@@ -108,7 +152,8 @@ function ShoppingCartProvider({children}){
                 isShoppingMenuOpen,openShoppingMenu,closeShoppingMenu,
                 order,setOrder,
                 searchByTitle,setSearchByTitle,
-                filteredItems} 
+                filteredItems,
+                searchByCategory,setSearchByCategory} 
             }>
             {children}   
         </ShoppingCartContext.Provider>

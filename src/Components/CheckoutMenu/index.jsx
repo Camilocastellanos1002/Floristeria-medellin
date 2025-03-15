@@ -7,7 +7,6 @@ import { totalPrice } from '../../Utils';
 
 function CheckoutMenu(){
     const context = useContext(ShoppingCartContext); //leer el estado global del carrito
-    // console.log(context.cardProducts); 
 
     //función para eliminar un producto del carrito
     const handleDelete =
@@ -27,6 +26,8 @@ function CheckoutMenu(){
         }
         context.setOrder([...context.order, orderToAdd]); //agregar la orden al carrito
         context.setCardProducts([]); //vaciar el carrito
+        context.setSearchByTitle(null)  //vaciar input de busqueda
+
     }
     return(
         //forma de agregar logica al modal de detalle de producto

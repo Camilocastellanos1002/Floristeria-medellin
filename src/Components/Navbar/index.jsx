@@ -25,7 +25,9 @@ function Navbar() {
      <>
         <nav className='flex justify-between flex-nowrap items-center fixed z-10 top-0 w-full py-1 px-1 text-5m font-light'>
             <section className='flex items-center gap-2'>
-                <img src='/src/assets/logo.png' width='100' alt='' />    
+                <NavLink to='/'>
+                  <img src='/src/assets/logo.png' width='100' alt='' />    
+                </NavLink>
                 <Bars4Icon 
                     className='h-6 w-6 text-rose-500 cursor-pointer ml-2 mt-3'
                     onClick={toggleMenu}>
@@ -141,6 +143,16 @@ function Navbar() {
                                     isActive ? activeStyle : undefined
                             }>
                         Sign in
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink
+                      to={'/your-purchases'}
+                      className={
+                              ({isActive})=>
+                                  isActive ? activeStyle : undefined
+                            }>
+                        Tus Compras
                     </NavLink>
                 </li>
                 <li className='flex items-center justify-center'>

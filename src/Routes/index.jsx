@@ -12,6 +12,7 @@ import {Store} from '../Pages/Store'
 import { Loading } from '../Pages/Loading'
 import { Empty } from '../Pages/Empty'
 import {Error} from '../Pages/Error'
+import { YourPurchases } from '../Pages/YourPurchases';
 
 function AppRoutes (){
     let routes = useRoutes([
@@ -23,8 +24,10 @@ function AppRoutes (){
         { path: '/satisfied-customers', element: <SatisfiedCustomers/>},
         { path: '/season-advertising', element: <SeasonalAdvertising/>},
         { path: '/shopping-cart', element: <Shopping/>},
+        { path: '/your-purchases', element: <YourPurchases/>},
+        { path: '/your-purchases/last', element: <Shopping/>},
+        { path: '/your-purchases/:id', element: <Shopping/>},
         { path: '/sign-in', element: <SignIn/>},
-        // { path: '/store', element: <Store/>},
         { path: '/loading', element: <Loading/>},
         { path: '/empty', element: <Empty/>},
         { path: '/*', element: <Error/>},   //Cual quier otra ruta diferente a la lista (que se denota con el asterisco), generara error

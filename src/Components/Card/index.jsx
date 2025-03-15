@@ -21,7 +21,7 @@ function Card (data){
         context.setCardProducts([...context.cardProducts, productData]); //se agrega el producto seleccionado al carrito
         context.openShoppingMenu(); //se abre el modal del shopping cart
         context.closeProductDetail(); //se cierra el modal de detalle de producto para que no se cruce el modal de detalle de producto con el modal del shopping cart
-        console.log(productData);
+        // console.log(productData);
         // console.log(context.cardProducts); 
     }
     //se crea la función para renderizar el icono de agregar al carrito

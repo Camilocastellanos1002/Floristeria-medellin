@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import { Link } from 'react-router-dom'; //importar el componente Link para enrutar 
 import { XMarkIcon } from '@heroicons/react/24/solid'
 import { ShoppingCartContext } from '../../Context';
-import { OrderCard } from '../../Pages/OrderCard';
+import {OrderCard} from '../OrderCard';
 import { totalPrice } from '../../Utils';
 
 function CheckoutMenu(){
@@ -64,7 +64,7 @@ function CheckoutMenu(){
                     <span className='font-light'>Total:</span>
                     <span className='font-medium text-2xl'>${totalPrice(context.cardProducts)}.000</span>
                 </p>
-                <Link to='/shopping-cart'>
+                <Link to='/your-purchases/last'>
                     <button 
                         className='w-full bg-rose-500 text-white rounded-lg p-3 m-2 mb-6'
                         onClick={

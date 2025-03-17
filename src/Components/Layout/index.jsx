@@ -2,7 +2,7 @@
 function Layout ({children}){
     return (
         <>
-            <section className='flex flex-col  items-center mt-28'>
+            <section className='flex flex-col  items-center mt-20'>
                 {children}
             </section>
         </>

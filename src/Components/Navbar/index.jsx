@@ -18,7 +18,7 @@ function Navbar() {
 
     return (
      <>
-        <nav className='flex justify-between flex-nowrap items-center fixed z-10 top-0 w-full py-1 px-1 text-5m font-light'>
+        <nav className='flex justify-between flex-nowrap items-center fixed z-10 top-0 w-full py-1 px-1 text-5m font-light bg-white'>
             <section className='flex items-center gap-2'>
                 <NavLink to='/'>
                   <img src='/src/assets/logo.png' width='100' alt='' />    

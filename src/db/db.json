@@ -1,0 +1,60 @@
+{
+    "floristeriaMedellin":[
+        {
+            "id":1,
+            "image" : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQdAp_0QZJgCMWNvFd-lzlIFAsfDdZktv9HB-aKQ7krJFVxISOsw6Uspf6OgIhCVe05XjXa2-Ljf2OeP4BJWaWCO02hX1CIAMVz4R3U_bnhStl73nEZWN1Tt_ZDDdpKANwsbmkHDtkFIYdD7JjBUbmWfoGzjeN4-zF3fJ53U2XqtFbjcZNlzrAn1XexRM/s320/mi-gran-corazon.jpeg",
+            "title": "Mi Gran corazón",
+            "category": "Amor y Romance",
+            "price": 280000,
+            "description": "Expresa el amor más profundo la esencia del romance eterno. Un corazón vibrante de rosas rojas pasión, meticulosamente dispuestas para crear un símbolo inolvidable de tu afecto. Cada rosa, cuidadosamente seleccionada, irradia belleza y frescura, mientras que los delicados toques de Gypsophila y los exquisitos bombones dorados añaden un encanto especial. Este arreglo es el regalo perfecto para expresar tu cariño y amor de la manera más espectacular."
+        },
+        {
+            "id":2,
+            "image":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirTGqF_MsW6N1nDhEEyI3Y4BfuQLk2cYQ1t6jfaYWrvdVye0xPeYkw5CFK-J483JOkivmiYpvm0GhvTeU8wekjkHqc-mrB7AVAu6UJjLK01635TeTDBTZxB_KqF2sliK19YbWgy51Om6Z_qLHzVMZBi4d_SUPvEza_FE6mH5AX5K4Bg_NRm-r_nlsvdtY/s320/rosas-caja-corazon.jpeg",
+            "title":"Eres Mi Todo para Mi",
+            "category": "Amor y Romance",
+            "price":800000,
+            "description":"Este arreglo floral en forma de corazón es una explosión de color y emoción, diseñado para sorprender y emocionar. Las rosas rojas, símbolo de amor y pasión, se combinan con el toque dulce de los bombones, creando un regalo que es mucho más que flores. Es una declaración de amor, un gesto de cariño, una sorpresa inolvidable que hablará directamente al corazón de quien lo reciba, recordándole que es el centro de tu universo."
+        },
+        {
+            "id":3,
+            "image":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBVmQ-3f_3ZEIkRtaFtIsYzTe4QIELOeqjoTPZsb_rT9N0wQkDNTTfz8S3Fw4XiqcMfmNFc9m0pb5bUJIzRSewlrKiBl8oBE8CPPYI_LDRRhdi81Absyi1rw9BXNfB1Gz1PBHIEH206tLluiRdWBT11Pc4wk2j-Dz4TxxOkmpIb1c22qsONoCEJPu4ba8/s320/teddy-rose.jpeg",
+            "title":"Teddy Rose",
+            "category": "Amor y Romance",
+            "price":1500000,
+            "description":"adorable osito de peluche hecho completamente de rosas rojas pasión. Cada pétalo ha sido cuidadosamente seleccionado y colocado para crear un regalo tan único como especial. Este osito de rosas es la combinación perfecta de ternura y elegancia, ideal para expresar amor, cariño y alegría en cualquier ocasión. Sorprende a esa persona especial con un detalle que perdurará en su corazón."
+        },
+        {
+            "id":4,
+            "image":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJvB59RywW4DEGQbvligSmZCPQZpjwf7RlgLC_FWpBX90Q9yhYSJbjWZRAq2m2wfcO0CvZHJtyhUXlm9_B1n9JMa1um24hw8bNHra0LxI3ESuZ1CU4ty2QIeaZ2b9mp6ksmqxch4nO01cuMMGPK4pXiK8SvBAASoxp_yIRjCac2WfEdRrQDh1Wh1QYqPY/s320/amor-cremoso.jpeg",
+            "title":"Amor Cremoso",
+            "category": ["Amor y Romance","Aniversario"],
+            "price":230000,
+            "description":"un regalo que despierta los sentidos y enamora a primera vista. Este arreglo floral único combina la belleza de las rosas rojas con el sabor inconfundible del Baileys Original Irish Cream, creando una mezcla irresistible. Los bombones dorados, como pequeños tesoros, complementan este detalle especial, ideal para celebrar aniversarios, cumpleaños o simplemente para decir 'te amo' de una manera original y deliciosa."
+        },
+        {
+            "id":5,
+            "image":"",
+            "title":"EspiraRose",
+            "category": ["Amor y Romance","Aniversario"],
+            "price":300000,
+            "description":"Este torbellino de amor no solo enamora a primera vista, sino que también desafía lo convencional, haciendo de cada rosa un testimonio de un afecto que se eleva y crece con el tiempo. Los bombones Ferrero Rocher, como pequeñas joyas, añaden un toque de indulgencia y sofisticación, complementando este detalle original y memorable. 'Espirarose' es más que un arreglo, es una experiencia visual y sensorial inolvidable, ideal para expresar sentimientos profundos con un toque de dinamismo y distinción."
+        },
+        {
+            "id":6,
+            "image":"",
+            "title":"Hortensias Contigo",
+            "category": ["Amor y Romance","Aniversario"],
+            "price":180000,
+            "description":""
+        },
+        {
+            "id":"",
+            "image":"",
+            "title":"",
+            "price":"",
+            "description":""
+        }
+        
+    ] 
+}

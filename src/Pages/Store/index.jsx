@@ -32,7 +32,7 @@ function Store (){
 
     return (
         <Layout className='Home'>
-            <section className='flex text-white items-center justify-center gap-3 relative w-80 mb-6'>
+            <section className='flex text-white items-center justify-center gap-3 relative w-80 mb-6 '>
                 <h1 className='message font-medium text-xl'>Bienvenido!</h1>
             </section>
             <section>

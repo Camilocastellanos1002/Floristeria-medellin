@@ -25,7 +25,6 @@ function Shopping(){
                 </Link>
                 <h1>Tu Carrito de compras!</h1>
             </section>
-            {/* logica para mostrar la ultima orden, los ultimos productos añadidos al carrito */}
             <section className='flex flex-col w-200 justify-center'>
                 {
                     context.order && context.order.length > 0 && context.order?.[index]?.products.map(

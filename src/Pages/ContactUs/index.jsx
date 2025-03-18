@@ -1,13 +1,18 @@
 import { Layout } from "../../Components/Layout";
-
+import { useContext } from "react";
+import { ShoppingCartContext } from "../../Context";
 function ContactUs(){
+    const context = useContext(ShoppingCartContext);
+
     return (
         <>
-             <Layout className='contact-us'>
-                <p className='message bg-rose-500'>Contactanos!</p>
+            context
+            <Layout className='bg-rose-500'>
+                <p className='message text-black'>Contactanos!</p>
             </Layout>    
+        
         </>
-    );
+    )
 }
 
 export {ContactUs}

@@ -20,7 +20,7 @@ function Navbar() {
      <>
         <nav className='flex justify-between flex-nowrap items-center fixed z-10 top-0 w-full py-1 px-1 text-5m font-light bg-white'>
             <section className='flex items-center gap-2'>
-                <NavLink to='/'>
+                <NavLink to='/home'>
                   <img src='/src/assets/logo.png' width='100' alt='' />    
                 </NavLink>
                 <Bars4Icon 
@@ -37,7 +37,7 @@ function Navbar() {
                     }`}>
                         <li>
                             <NavLink
-                                to='/'
+                                to='/store'
                                 onClick={ ()=>{context.setSearchByCategory()}}
                                 className={
                                     ({isActive})=>
@@ -48,7 +48,7 @@ function Navbar() {
                         </li>
                         <li>
                             <NavLink
-                                to='/amor-y-romance'
+                                to='/store/amor-y-romance'
                                 onClick={ ()=>{context.setSearchByCategory('clothes')}}
                                 className={
                                     ({isActive})=>
@@ -59,7 +59,7 @@ function Navbar() {
                         </li>
                         <li>
                             <NavLink 
-                                to='/cumpleaños'
+                                to='/store/cumpleaños'
                                 onClick={ ()=>{context.setSearchByCategory('electronics')}}
                                 className={
                                     ({isActive})=>
@@ -70,7 +70,7 @@ function Navbar() {
                         </li>
                         <li>
                             <NavLink 
-                                to='/aniversario'
+                                to='/store/aniversario'
                                 onClick={ ()=>{context.setSearchByCategory('furnitures')}}
                                 className={
                                     ({isActive})=>
@@ -81,7 +81,7 @@ function Navbar() {
                         </li>
                         <li>
                             <NavLink 
-                                to='/condolencias'
+                                to='/store/condolencias'
                                 onClick={ ()=>{context.setSearchByCategory('toys')}}
                                 className={
                                     ({isActive})=>
@@ -92,7 +92,7 @@ function Navbar() {
                         </li>
                         <li>
                             <NavLink 
-                                to='/grados'
+                                to='/store/grados'
                                 onClick={ ()=>{context.setSearchByCategory('clothes')}}
                                 className={
                                     ({isActive})=>
@@ -103,7 +103,7 @@ function Navbar() {
                         </li>
                         <li>
                             <NavLink 
-                                to='/desayunos'
+                                to='/store/desayunos'
                                 onClick={ ()=>{context.setSearchByCategory('electronics')}}
                                 className={
                                     ({isActive})=>
@@ -155,6 +155,16 @@ function Navbar() {
                                     isActive ? activeStyle : undefined
                             }>
                         Sign in
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink
+                      to={'/store'}
+                      className={
+                              ({isActive})=>
+                                  isActive ? activeStyle : undefined
+                            }>
+                        Tienda
                     </NavLink>
                 </li>
                 <li>

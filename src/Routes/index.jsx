@@ -16,8 +16,8 @@ import { YourPurchases } from '../Pages/YourPurchases';
 
 function AppRoutes (){
     let routes = useRoutes([
-        // {path: '/', element: <Home/>},
-        { path: '/', element: <Store/>},
+        {path: '/home', element: <Home/>},
+        { path: '/store', element: <Store/>},
         { path: '/contact-us', element: <ContactUs/>},
         { path: '/create-arrangement', element: <CreateArrangement/>},
         { path: '/register', element: <Register/>},
@@ -33,12 +33,12 @@ function AppRoutes (){
         { path: '/*', element: <Error/>},   //Cual quier otra ruta diferente a la lista (que se denota con el asterisco), generara error
 
         //paths para realizar el filtrado por categoria pero que se vea reflejado sobre store y no crear otras pages
-        { path: '/amor-y-romance', element: <Store/>},
-        { path: '/cumpleaños', element: <Store/>},
-        { path: '/aniversario', element: <Store/>},
-        { path: '/condolencias', element: <Store/>},
-        { path: '/grados', element: <Store/>},
-        { path: '/desayunos', element: <Store/>},
+        { path: '/store/amor-y-romance', element: <Store/>},
+        { path: '/store/cumpleaños', element: <Store/>},
+        { path: '/store/aniversario', element: <Store/>},
+        { path: '/store/condolencias', element: <Store/>},
+        { path: '/store/grados', element: <Store/>},
+        { path: '/store/desayunos', element: <Store/>},
 
     ]);
     return(routes);

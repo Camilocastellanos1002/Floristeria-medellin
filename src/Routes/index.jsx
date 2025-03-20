@@ -16,7 +16,7 @@ import { YourPurchases } from '../Pages/YourPurchases';
 
 function AppRoutes (){
     let routes = useRoutes([
-        {path: '/home', element: <Home/>},
+        {path: '/', element: <Home/>},
         { path: '/store', element: <Store/>},
         { path: '/contact-us', element: <ContactUs/>},
         { path: '/create-arrangement', element: <CreateArrangement/>},

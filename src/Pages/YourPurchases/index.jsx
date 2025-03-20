@@ -15,7 +15,7 @@ function YourPurchases() {
         //se renderiza el layout de la página
         <Layout>
             context
-            <section className='flex text-white items-center justify-center gap-3 relative w-80 mb-6'>
+            <section className='flex text-white items-center justify-center gap-3 relative w-80 mb-6 mt-6'>
                 <h1 className='font-medium text-xl'>Tus Compras Realizadas!</h1>
             </section>
             {/* se renderiza el título de la página */}

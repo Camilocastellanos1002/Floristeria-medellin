@@ -34,26 +34,376 @@
         },
         {
             "id":5,
-            "image":"",
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEhhn76AUs13PXLauzsnBVMdLk-z2Y2HPK7BySbn3GRSJ4KZUh9G8Nx9g9RV8b41dU282k6d0Yde-joS-wBcKS7v_oDaCMG7ozmc3oabvFBZJHUaVJyrZEnYPkt4JBE5vnfWljvq_yTbjSBjDM66qTxukN3Uf6pUXYtyfvDfqFRr-s2exC9jO62KxWiMbx8=w369-h412",
             "title":"EspiraRose",
-            "category": ["Amor y Romance","Aniversario"],
+            "category": "Aniversario",
             "price":300000,
             "description":"Este torbellino de amor no solo enamora a primera vista, sino que también desafía lo convencional, haciendo de cada rosa un testimonio de un afecto que se eleva y crece con el tiempo. Los bombones Ferrero Rocher, como pequeñas joyas, añaden un toque de indulgencia y sofisticación, complementando este detalle original y memorable. 'Espirarose' es más que un arreglo, es una experiencia visual y sensorial inolvidable, ideal para expresar sentimientos profundos con un toque de dinamismo y distinción."
         },
         {
             "id":6,
-            "image":"",
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEggcvfoUb8WZOjxdGH_XXEeoFdiHF6-2ckR-UGbYFERgUxZPws50rBaCZd12pXqKKCVvUgTuul-FEiaO-wjVY7IFFSFY19niS0Di659r1DFxUNmfDfXy6mtyzk2qSjhiJgoiNUJ77xqKvNlD_ZU5a56HH-nsfIsGiXazork0zVbIr1lTU6y_PP4AYoM2cQ=w294-h371",
             "title":"Hortensias Contigo",
+            "category":"Amor y Romance",
+            "price":180000,
+            "description":"Regala un momento de paz y serenidad con este arreglo de hortensias en tonos suaves. Un conjunto de flores que evocan la delicadeza de las nubes, presentado en una caja redonda con un lazo que añade un toque de encanto"
+        },
+        {
+            "id":7,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEjoVqPNnKmuqGNrkfLXIFGEpjpmt7wciGAHWNi3VNhIGUVyjr9CZ47qAFlv2tK6sc7mMciBWrl9WroyuQQyKiMPlsrkgKzM52Nc__A4dO_6ObOhZNJg-EQ4Aw1jrKaSu67KXEXx4HyhJCvyrNqOoLXFVoBm7bcFnhJR1Beuu0v2fMFhS_JBz3oz1DVE8Gw=w306-h315",
+            "title":"Bouquet Mi Amor",
+            "category": ["Amor y Romance","Simplemente por que si"],
+            "price":300000,
+            "description":"Un majestuoso bouquet de rosas rojas pasión, coronado con una delicada tiara de cristal. Cada rosa, cuidadosamente seleccionada, irradia belleza y frescura, mientras que la tiara añade un toque de elegancia real"
+        },
+        {
+            "id":8,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEhOYMymhkjvqRREksjEeGnzE3rFKYUAF9sz2107kJ-ItNb1GgJXz8DFKokw38GUqXVD3x4HKwY-2vnUe4MSk-NpfDcc5v42a8t-uKFLbCIV0QI8-nSier-us4y4J0D9Vi04d-ErDCzh1hI8XkMin9P15XrIenxJqe-u2N3GLG185wNcmW_Od3zGozDNx6E=w317-h311",
+            "title":"Tu Eres Mi Amor",
+            "category": ["Amor y Romance","Aniversario"],
+            "price":350000,
+            "description":"Eleva tus momentos especiales a un nivel de sofisticación incomparable con nuestro arreglo de 100 rosas rojas premium. Cada rosa, seleccionada meticulosamente por su tamaño, color y frescura, se despliega en un bouquet majestuoso, creando un espectáculo visual que cautiva los sentidos"
+
+        },
+        {
+            "id":9,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEh9lOpTGAnGePUogrh9K7Gdm-jecAeWuc8Pzm-voFMfBodiKMucKewkaHhlXn5hMIrSGI09AFCrfvoIBejzgIw_OtvYNygO1yvuFEOK8UMp0sj6Md26KE-mX6WtivEkU0sBvMh03BuTLUAIjYOBYnlBJHpozRnZO-t9b2HQsdI-mcT-I3IVxACCr7gol4Y=w264-h328",
+            "title":"Momento de Amor",
+            "category": ["Amor y Romance","Aniversario"],
+            "price":200000,
+            "description":"Sorprende con un regalo que trasciende lo convencional. Nuestra pirámide de rosas rojas es una obra de arte floral que captura la atención con su forma distintiva y su belleza cautivadora"
+
+        },
+        {
+            "id":10,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEgj3kEGfIHU1HGlSkSCEoJhgDm3eHzkgXUwZTOqNTABsJHdfsyRpbq_lVfpo_5ueNbZBNdLOJZ7x83STs7BcnFlU6ugSTCNPyK3T5go_bZ4piefJdqI_om3tiD9shHC7YNPWABB3Sq_HIU9030DNTaE30iovOyYmUJY3I0veAp1N1hW-eRuewX1l3kvZUw",
+            "title":"Mi Amor Chocolatoso",
+            "category": ["Amor y Romance","Aniversario"],
+            "price":220000,
+            "description":"Regala una experiencia inolvidable con este encantador corazón de rosas rojas, donde la belleza floral se fusiona con el placer del sabor. Un regalo que no solo deleita la vista, sino que también endulza el paladar"
+
+        },
+        {
+            "id":11,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEhdwVzvBIV9RJPULd4oRUSkPJU0BUctiEJfpTSXba0O-9LVEdcPQvD7YftWoPOLVV9PZmPXRvN7D2vnKhmWOsyWC1_oeLbfj8zQmIFXEHtao67UzRLOcnEKKANvO5tcEckszCO8jpvPYNhAXsXiRsdA6WztbxZTF73YU0fvmqyH5Mw3kfsHIOxpyPP3JV8",
+            "title":"¿Quieres ser mi novia?",
             "category": ["Amor y Romance","Aniversario"],
             "price":180000,
+            "description":"Haz la pregunta más importante con este ramo que habla por sí solo. Un conjunto de rosas en tonos suaves y morados, acompañadas de flores pequeñas que añaden un toque especial, todo presentado con una cinta que lleva el mensaje clave"
+
+        },
+        {
+            "id":12,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEhTkhD5YV4E1JU7371njOb55kw3ETkJHDKrNQQL04hk8D9xfE_fbBGdYXRHHz4kngKkud3nHUIV2vqiAS7I8wv72IxYI5jmtmArLOp325wqn8sZBjfUZl3IXi383yP5-yxsUhGarQKbVps69xGHdOIDuG9soBUy1C_rmHj0dWak1SLG2YDSa9YlLuYsZjE",
+            "title":"Sol y Pasión",
+            "category": ["Amor y Romance","Aniversario"],
+            "price":140000,
+            "description":"Regala un estallido de alegría con este ramo que combina la vivacidad de los girasoles con la intensidad de las rosas rojas. Un contraste que captura la atención y transmite un mensaje de felicidad y amor"
+
+        },
+        {
+            "id":13,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEgnU8pr2raEyQNC2fan_Q9Ig2d9DuwXmtKDxZ1mVyPRhQwBsYMSmsof_IzsF9NxMlfnYF9QZKpTxMOmp82rOcG074V0FgocKs1EjIdOv0a7h4Z3lqieWfFm7MJV2jaOV6mcBtD1vkkifKLXhVzTL4A8IE1bR3Jj1lu8OlQyMHFptGRTDN4HQxPqTjS-Ad8",
+            "title":"Amor Alucinante",
+            "category": ["Amor y Romance","Simplemente por que si"],
+            "price":200000,
+            "description":"Celebra la vida y los momentos especiales con este arreglo que desborda vitalidad. Un conjunto de girasoles radiantes, rosas rojas intensas y dulces dorados, todo presentado en una base rústica que añade un toque natural"
+        },
+        {
+            "id":14,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEhVoEQiw2Ru01Pn-_nEqJLKOSvKqA929lpqZxVwedTGAOBlKcANvAfovWDW1nWxbqp7Ss5mJhsan1_OkF8-oMEU9DhdlaojAXxRm8BR4uhKzCTE6zfHmPbuAUQ7AdI8Xf0gT_WVawfuECVOU-LXKV-wJ3pGgmmzqizNnSlyLznrXN0mU9Z3CKx95m1HjDo",
+            "title":"i Eterno Corazón",
+            "category": "Amor y Romance",
+            "price":300000,
+            "description":"Este arreglo es una declaración de amor que trasciende el tiempo. Una rosa roja, símbolo de pasión, preservada bajo una cúpula de cristal, se convierte en un recuerdo eterno. Rodeada de rosas frescas en una caja con forma de corazón y acompañada de dulces dorados, este regalo es un deleite para los sentidos"
+        },
+        {
+            "id":15,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEi-ylsrRRBWs6z3M-H3VCbM44QT8hpIt2GQaUR1wW-jWaLeuI8xAgZnO0pufcWu6rBnLsPhx1wGEh9BOQpyoonkJfhfrxJmYd8nno20lBvnKttQP-nzFu53d3g_gdkaOf4HkG5Ko4NcAA-gqcAs2NU1Rqd0xRKBxcSUv7kpMUiDLdZ-Ph5LtSbETNACMpQ",
+            "title":"Pureza de mi corazón",
+            "category": ["Amor y Romance","Aniversario"],
+            "price":230000,
+            "description":"Este arreglo es una declaración de intenciones, un corazón que late con la pasión de las rosas rojas y la elegancia de las blancas. Un regalo que no solo se ve, sino que se siente, con dulces dorados que añaden un toque de celebración"
+        },
+        {
+            "id":16,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEiXwZ-aPHjBnRWJ_vioPdAQiK-VEWnYBJgIJU3qXeVyLKVwWy_BddsyaHtSvGZ0KW-Y8fwtVXbvLCRrdBL9LlMQ7Dm-HMi7-i4xdsn0su4GGfie73bk0SEWNPPnqNFTWZRzhXstI_aGipa0TR5OFC8H7rg1Ya13ZeOKui12svav50UsMWWuBEvvGcufWFg",
+            "title":"Explosión de Amor",
+            "category": "Amor y Romance",
+            "price":900000,
+            "description":"Este arreglo no es solo un regalo, es una experiencia. Un torrente de rosas rojas que inundan los sentidos y transmiten un mensaje de amor apasionado y profundo. Un despliegue de belleza y abundancia que conmueve el corazón y crea recuerdos imborrables."
+        },
+        {
+            "id":17,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEjfX5nKSdENm0COux17F7NwGI3C42Vt3YgpIWUQ-M2M4-bxkAFJ0FstW0RSQMOrZVTRgwyhLh03vyFMjXcbFe2x15PaZPuT4Dyk7VfEOrxnOSQoL4E8ZZAWKzPdV5efP27Yda_ilEVW8MiCsDWA8nROduhIMtj48h5r6dKIQDivixylLW-2VkoaRqFMrZM=w219-h274",
+            "title":"Sol de mi vida",
+            "category": ["",""],
+            "price":160000,
+            "description":"Regala un estallido de felicidad con este ramo que combina la vitalidad de los girasoles con la delicadeza de las rosas amarillas y blancas. Un conjunto que ilumina cualquier espacio, acompañado de chocolates dorados que añaden un toque de dulzura y celebración."
+        },
+        {
+            "id":18,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEgSGVXcgqQFJuCKOaMfN2C16Qyn74JReu9MaUbI6hMidni9RvefUjQQhI-rist8j1YPGq-IubBDYvZeAI8BtRUbMF4hVRrsOTsHRdZBRyNLLPLVeyuQhwLX-yopgYHUKSw5jiBYWPFLzK_NIXz6t7QqqCI7WD_9xHofzwS9qdYOFmy4D2j8dHVbQLN015k=w278-h340",
+            "title":"Pureza y Amor",
+            "category": ["Amor y Romance","Aniversario"],
+            "price":350000,
+            "description":"Regala un símbolo de amor en su máxima expresión con este ramo que combina la pasión del rojo intenso con la pureza del blanco radiante. Un conjunto de rosas que celebra la dualidad del amor, creando un contraste visual que cautiva y emociona."
+        },
+        {
+            "id":19,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEgPepG4z7agzXb3lQEfNKD3slX2Ydyf6opb8-bAp3qdmq7CbYV4C73LZpS1E95Xf19ZiUvNZhyyRo2ZhgD1bLDCv4y8Gs6DBQ39WetN2ZBQCQJOiHxXMv8qbTfb6b4uk2uwak0OlD-i6aydFaDvGeoQV-mamxocbl3zXHg8TIQFPV2XXYkv-3v3YvSkdMI",
+            "title":"MargarAmor",
+            "category": "Amor y Romance",
+            "price":160000,
+            "description":"Regala un toque de distinción con este arreglo que combina la pasión de las rosas rojas con la frescura de las margaritas y la delicadeza de la gypsophila. Un conjunto que irradia elegancia y encanto, presentado en una caja redonda con un lazo que añade un toque final de sofisticación."
+        },
+        {
+            "id":20,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEg9OkuOWjO5ygauycxmOO5hg5PacfvrBwg2I6UtUb62TitrvSb5Yz8Y8zggRq-CpI1VGlg5ezLT35vu72rDAxYSOO-rOm5zGNhKDOgAdt73HiPV3GfRxsM_UbpLwQKYiz-3kVOwY5LSAYeeDbtXgFSH65CdfYen0BBYDjjgcE-na5fSiO2koWJ3sHFtb5Y=w306-h331",
+            "title":"ConquistArte",
+            "category": ["Amor y Romance","Amor y Romance"],
+            "price":130000,
+            "description":"Regala un momento de belleza natural con este ramo de rosas rosadas, un símbolo de amor suave y delicado. Un conjunto que irradia sencillez y encanto, perfecto para expresar sentimientos sinceros y celebrar momentos especiales"
+        },
+        {
+            "id":21,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEjH8--wM7aQRMiNPRbEtC_gTcLj5YdJI3kJVr0zWVqdNDBZRlDSmzy8He9-tMgGLyg8XN2m96Ujbzes9hsWR9HO92sLLAo0CuHkS1m8scX3SXNrvzGz-CoeeFt-JO0nxq5BtQzQ37OOshh4KQwaGyJ3dEHaBI8kTVGavn-2t2LvYyQEp3gzyHWfZvrWuoE=w266-h363",
+            "title":"Oso de Amor",
+            "category": "Amor y Romance",
+            "price":450000,
+            "description":"Regala un abrazo de ternura con este adorable oso de peluche que lleva un corazón de rosas rojas y dulces dorados. Un conjunto que irradia amor y dulzura, perfecto para expresar sentimientos sinceros y celebrar momentos especiales"
+        },
+        {
+            "id":22,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEjlvVhY4wrgU4jl0TVdjc01G0Kkki-jVkeHiiC4kCtOWSqRn-K7DzetWyK9RKvsBsmEX57PbjBZvr1SyeQFQTTPGPTTQzEGAjszRBHnHjx7VTaH0SnGDJdmH8VeRjHaufEJNgN3FV38vktlWKvDzI_6kC1t_Jw-ftEnEjV_89y2QnoQLD1ORiOaeRBLx3M=w309-h308",
+            "title":"",
+            "category": ["Grados","Aniversario"],
+            "price":80000,
+            "description":"Regala un momento de plenitud con este ramo que rebosa de hortensias rosadas, acompañadas de la delicada gypsophila. Un conjunto que celebra la belleza natural en su máxima expresión, perfecto para expresar sentimientos sinceros y celebrar momentos especiales"
+        },
+        {
+            "id":23,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEj-X4Z6q6g0lmsHoZ0emd2gJ0xaAxdpoxHFU4ehCj-ADNLsp9CWD_ko1MzWhnmoAuUz39222Hib9zDfOY8cLSGKc8BHNC6fMaGuksNtN8Q_963GS1PtvyKckm4ociXLTVaM4QDmD-p3wozYKGqb5nMi2vk32Ag0MD47_wb2qXOfwD5UqdYF6DPOQv01OYs=w348-h326",
+            "title":"Encanto de Colores",
+            "category": ["Amor y Romance","Simplemente por que si"],
+            "price":250000,
+            "description":"Celebra la vida y el amor en todas sus formas con este arreglo que combina la pasión del rojo, la alegría del amarillo, la ternura del rosa y la pureza del blanco. Un jardín de emociones que captura la esencia de cada sentimiento, presentado en una caja en forma de corazón con un lazo que añade un toque final de encanto"
+        },
+        {
+            "id":24,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEibFec9PLoda3Bt5kKmfbIq8DQ7n8BVAl7hdaGbLPgcF26X3JXDFILgj3s1Eyp-O93lFRKEj8mdxxNIDl7qlcwqllm1uKNe-JrP9nMy_Pg11x3jC8ndTDb0DJkHdyquoixpZKTe5JBll2nL4PryYkn3MXM520cr1OGF-sHL-696dMXy-71sBhjsojnkbFA=w316-h357",
+            "title":"Amor Sincero",
+            "category": ["Amor y Romance","Aniversario","Simplemente por que si"],
+            "price":320000,
+            "description":"Celebra el amor en su máxima expresión con este arreglo que combina la pasión de las rosas rojas, la indulgencia de los chocolates Ferrero Rocher y la alegría de otros dulces. Un corazón que late con emociones intensas, presentado en una caja que guarda un mensaje personalizado, un detalle que añade un toque especial a este festín para los sentidos"
+        },
+        {
+            "id":25,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEiZrA-hDGrKkTbNqcAT5Kjt0LtcTliZuJOX_tuKzeNivq5T42rNcLg3Va0kKIYNfkT7aiYEIv5WGWw98Y5DmGVARn4Uzy19KpxIMjKYKKWqETE3yglAoKKs68cqsbkF53aUMkSJ-FdYd3OpUI17DVJolC_Wy87R84-SFrUMvbVcsu9d7RYXSW8ntU5puV4=w297-h379",
+            "title":"Enamórate Rosa",
+            "category": "Amor y Romance",
+            "price":200000,
+            "description":"Regala un momento de ternura y dulzura con este arreglo que combina la delicadeza de las rosas rosadas con el brillo de los chocolates Ferrero Rocher. Un conjunto que enamora a la vista y al paladar, presentado en una caja redonda con un lazo que añade un toque final de encanto"
+        },
+        {
+            "id":26,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEgYuLsp8HapxbO1bEoPBc5dF1vlGHmZweESfHu7FyUHIKOdL0hN1wIddzZEslOOxb9FuZe6pZWA8PCoxlsTBasfqKG2LiW9Dl9k8_p5JPsUgLN8MfIM9oLrSeAPE_5VQDGB_ujdnYGey-CayAHBcRPOevXNMQv34NU3mkxhwaOQhi8z6arEXiEHCll1R2c=w361-h370",
+            "title":"Mi Corazón es tuyo",
+            "category": "Amor y Romance",
+            "price":180000,
+            "description":"Tiende un puente hacia la reconciliación con este ramo que combina la pasión del rojo vibrante con la pureza del blanco radiante. Un conjunto de rosas que celebra la dualidad del amor y la sinceridad, creando un contraste visual que cautiva y emociona, y un mensaje que va más allá de las palabras: 'Lo siento, te amo y deseo un nuevo comienzo'."
+        },
+        {
+            "id":27,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEg8P6UvDqL45Ww6ukNX4ITmxJgBEj7dNhaReiV4LYbEdiwKJketRXRdF4M3VIC14rH9JhzCzSgWUuOrb7kAowEen38NbArpYZnDnQYzzWlRCsMV64O_AiM_Zjx_lRYUeB-OkQqDdr0y3NgU70M5O--Pq4MLwNM7dtnkIkFcxiTfu5_Ebge--37NWH1n69U=w315-h353",
+            "title":"Rosa Preservada",
+            "category": ["Amor y Romance","Aniversario"],
+            "price":180000,
+            "description":"Comparte un símbolo de amor que trasciende el tiempo con estas rosas preservadas bajo cúpula de cristal. Un detalle que captura la belleza efímera de las rosas y la convierte en un recuerdo eterno, perfecto para expresar sentimientos sinceros y celebrar momentos especiales"
+        },
+        {
+            "id":28,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEhT3gWEbzFRUYLBzlLy_9w8pJWiUQWEB_dL0Mdtg2vlshFjyJXAqbtkbFl_K-jFJ-l5K79Ktrlr_TWITJzYiT9dNmXcBv_15R9Kqah6UNMek1ybjCJgpujlZZbDMeoMzJEH9hLeExo1pwi7iiU7qM3K_9vID5cLR9IeAoQQQfmRWuIxE8VJfw4qBUD9qoM",
+            "title":"Amor y Encanto",
+            "category": "Amor y Romance",
+            "price":200000,
+            "description":"Demuestra con este impresionante arreglo de rosas en forma de corazón un símbolo de amor apasionado. Un conjunto que irradia pasión y deseo, perfecto para expresar sentimientos profundos y celebrar momentos especiales"
+        },
+        {
+            "id":29,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEjtAkGC8WZMh4b3zGKMeakQkka1PVvBu4tqlW1SIAZWSxjlyG-w8Ze-7MhCyiZ4QZyC7jA_zZJOp5bbop85t6G2_nPzG3PYhLdS2xDRrkZCkPPSYG5aURHDeGI7-y5GTOPwEcyZa3MP8NoK6uKyu4I9-obbu-7Qm33y43I18GeUU-vIIBIlhPGcsrbPMS4",
+            "title":"Amor de Colores",
+            "category": ["Aniversario","Grados"],
+            "price":130000,
+            "description":"Ofrece un momento de alegría y vitalidad con este ramo que combina la energía de los girasoles con la delicadeza de las rosas en tonos vibrantes. Un conjunto que irradia felicidad y optimismo, perfecto para celebrar momentos especiales y expresar sentimientos sinceros"
+        },
+        {
+            "id":30,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEictyr3f1PPJ0_HhNTQPjxBEjuogVqV6ScOqmVfFsLlqC3Bq-Yjycxx4oHTbn067Y4DhY5lWug7sZ_qXldgQYNqs73Lk674qoM_trig6MaYK17w6636WAJrwRfL-PTaWfRUOz1tULfrEzSHRBO-S70UcT2qBvJDLSyoozvmp0sd8tiVPablUfNYUo8DTjw=w302-h298",
+            "title":"Dulce Corazón",
+            "category": ["Amor y Romance","Simplemente por que si"],
+            "price":160000,
+            "description":"Regala un momento de pasión y dulzura con este arreglo que combina la intensidad de las rosas rojas con el exquisito sabor de los chocolates Ferrero Rocher. Un conjunto que enamora a la vista y al paladar, presentado en una caja en forma de corazón con un lazo que añade un toque final de encanto"
+        },
+        {
+            "id":31,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEgi0RhZJSJWU6bdjx7j9nC7FoPErzSGSTFL4Wkt_pYetiF_81L1iUVZMFKIoR4iSHISSCn0IpQkKMctzO8k5IH81v7PcJ37cohFGsDbI8EAOMsv8io_tmNUlIrMjPoQfL1ww2K-Co45WVWCQ3QoTAwQvH6EsGQVSY2Sp5ylufxz84htMwGdqTm5hBxRY2c=w284-h326",
+            "title":"Mira Rosa Dulce",
+            "category": "Aniversario",
+            "price":180000,
+            "description":"Regala un momento de ternura y dulzura con este arreglo que combina la delicadeza de las rosas en tonos suaves con el exquisito sabor de los chocolates Ferrero Rocher. Un conjunto que enamora a la vista y al paladar, perfecto para expresar sentimientos sinceros y celebrar momentos especiales"
+        },
+        {
+            "id":32,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEgOVSXXzRSmVu7IiL_FLiZj93Op69yTPAnMQcRIZPhYkv8odN7GC8W9YHlVemTXDOZR86Ba72XaciqJ4o7o7pZYODuXoWKDtA6sQ1ORT9wzNsmAFVDzXRMPS1g0PICNoVhfSvXY5vV-AXRa48LaNVi7CasiYfo7tOhhabHWJNG1GLR4mmCzDAvS-Gl9WuA=w299-h374",
+            "title":"Centro Primaveral",
+            "category": ["Amor y Romance","Simplemente por que si","Aniversario"],
+            "price":200000,
+            "description":"Un momento de pasión y alegría con este arreglo que combina la intensidad de las rosas rojas, la vitalidad de las rosas amarillas y el exquisito sabor de los chocolates Ferrero Rocher. Un conjunto que enamora a la vista y al paladar, perfecto para expresar sentimientos sinceros y celebrar momentos especiales"
+        },
+        {
+            "id":33,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEibJcKKQcjoSVubWPYibV9KS8swQKYha9H8AOMi_QguTRrthPMvXpIskq0B35WBWeEQlU0zozhw_P1BbEasVkbduZTaRSwLTxOOkVeWPBWqIx_yKXQG_527idWxiVWWLfh4VN8eBvGeNFv0Fbj3WurAASyZSHlKWeiE5gHS6aJ7-z3tvWMl-A-COVGgIik=w427-h381",
+            "title":"Dragón Gira",
+            "category": ["Aniversario","Condolencias"],
+            "price":120000,
+            "description":"Descubre un momento de alegría y luz con este ramo de girasoles radiantes. Un conjunto que irradia felicidad y optimismo, perfecto para celebrar momentos especiales y expresar sentimientos sinceros"
+        },
+        {
+            "id":34,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEiFAaABJy3jxuzPpmBNyhqu8YItjrApdhfD0zuWT-TyGO1yRQ2K10ZBTU78yeCHTm0ZXfQ2LgpS9g0keItqOGFVNCiPk22Mx31_kF98qLlndDkgTwGiyB_KeynXFKCJURwurpvBkqQLhixUJWv_vvyuWnBYuq_DkX1QnAW0_zwCifYTG0M7PNubhzhc7jI",
+            "title":"Arcoíris",
+            "category": ["Amor y Romance","Condolencias","Grados"],
+            "price":120000,
+            "description":"Entrega un momento de vitalidad y armonía con este ramo que fusiona la delicadeza de las rosas en tonos amarillos, blancos y rosados. Un conjunto que evoca la belleza de un jardín en plena floración, ideal para celebrar ocasiones especiales y expresar emociones genuinas"
+        },
+        {
+            "id":35,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEiVPLBy-PaMlSjlJo59nA33z9Jd3uwagwnUSolIGoBN0KhxW8KQdkPEBaAT4wKZVAuxKlA0ejCyVA_qTTUTy2BHzpjrkmwhwsD7Q4IUkOI0Dg5nqTooqHDS2SwKpuE1P64tP7ws5j0Fox4nMwdRueN63F4fGBCFfP0jA9w1cgvmu9rspLymPuE8KFwgpu8=w331-h314",
+            "title":"AmaryYa",
+            "category": ["Amor y Romance","Aniversario"],
+            "price":100000,
+            "description":"Ver alegría y luminosidad con este ramo que combina la energía de los girasoles con la delicadeza de los crisantemos amarillos. Un conjunto que irradia felicidad y optimismo, perfecto para celebrar momentos especiales y expresar sentimientos sinceros"
+        },
+        {
+            "id":36,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEhtz3b7h0n6-rHWWthb45SHeVAJCyhgkBJHwhkEzAh62n5q4G5e5Own9BuLOCQDXgQkw4r8KtOipggjyQrY8ObBDjFqCp_mRqLT1TPfrIXNcrnlgH-TShs2h4AvAPDZ-GTDKjBG0-ohz1rmIJ17n7M4wqpbnUuFNqD3vKW2-oLK6cXj93ssIgj4yBCET5s",
+            "title":"AmorRedondo",
+            "category": "Amor y Romance",
+            "price":130000,
+            "description":"Regala un símbolo de amor apasionado con este arreglo de rosas rojas. Un conjunto que irradia pasión y deseo, perfecto para expresar sentimientos profundos y celebrar momentos especiales"
+        },
+        {
+            "id":37,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEjSijiYE5XlyOf4jzjCwFX6RDVSy-F3tYpT9mLX6uJwrNSvG-W_01nFB1PRr4eud_peWbuLd7lJbn0U5JgEYry4lU8TEmQGCk3j3tSaP46secVNPR36PdU16ea2ANC-YhqUBkZoQ5REIV0XHaeNFt04n4TdFKj4PJh3tcr82kulkWkoH8cHjzjAgvm_xEU",
+            "title":"Mi Dulce Niña",
+            "category": "Amor y Romance",
+            "price":140000,
+            "description":"Regala un momento de pura alegría y diversión con este arreglo que combina la belleza de las gerberas rosadas con un adorable peluche y una selección de dulces irresistibles. Un conjunto que celebra la vida y la amistad, perfecto para sorprender a alguien especial en su día"
+        },
+        {
+            "id":38,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEjwvlCbJV5slMsYFEzwZjgDUU9tH09blHSO94Ed_CBvQYd0hU3XeV5KACjYd1QpUgboi8cphVW_BffSv_s8yWIkgy1JLrPXooE5CVfNg5E5AHozbfG36G58oHOJBHSv4w3CsAGTceLL27Hd0LuNddpRslp0NjohyqnfcZO5iw5x7lXGmsObKyHEnlXKs28",
+            "title":"Rosas Saludables",
+            "category": ["Simplemente por que si","Desayunos"],
+            "price":150000,
+            "description":"Prepárate para una experiencia sensorial inigualable con este arreglo que desafía lo convencional. Un festín para la vista, el olfato y el gusto, donde la elegancia de las rosas rojas se fusiona con la frescura de las frutas y la alegría de los dulces. Un regalo que despierta emociones y crea recuerdos inolvidables"
+        },
+        {
+            "id":39,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEjIogug2mmvEF6f901aOQtLm75TNfOb-lcsjHciaBltkCeWDiGtv60BHeH_K89BSbN5q-Pe_VhUuFmTWG1vqsBWS42WGSGxCAbAkb3ebueW8IqX5jAYY356HJ7cLJWrW9UsWkVLaW-IAIZ8vfgcuZlwJEeVOluU5cUt0EZJ8pmMGOxzu6JKDtOxkSqevdc",
+            "title":"Exótico encantador",
+            "category": ["Amor y Romance",""],
+            "price":170000,
+            "description":"Imagina un jardín secreto, donde la intensidad del rojo se entrelaza con la pureza del blanco y la alegría del fucsia. Este arreglo es un portal a ese mundo, una explosión de vida que captura la esencia de la naturaleza en un diseño único. Cada flor, cuidadosamente seleccionada, contribuye a una sinfonía de colores y texturas que despierta emociones y crea recuerdos imborrables"
+        },
+        {
+            "id":40,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEjDXtzeibDPubthGTECBHH8eHCVvngb4smBZNuLOyMhqFtZj7-PzjmmFOO-Tk7a4m1eEhlkyopB7zehyViTvkJiendZUgczZjQHJFVnJ_xH490g4R4B91hZX_Jfe3nOenDcxWrqCjcD41oSIZMe421XZ4_pNvqLb4_u6KlE4LVeAJPAuIu3RkutHlZHjko=w405-h471",
+            "title":"",
+            "category": ["Amor y Romance","Simplemente por que si","Desayunos"],
+            "price":270000,
+            "description":"Abre la puerta a un mundo de sensaciones con esta caja mágica que desafía lo convencional. Un viaje multisensorial donde la elegancia de las rosas rojas se fusiona con la delicadeza de la gypsophila, el sabor de snacks irresistibles y la ternura de un peluche adorable. Un regalo que despierta emociones, crea recuerdos imborrables y celebra la magia de los momentos especiales"
+        },
+        {
+            "id":41,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEikNta4BHTWEi3Edmq0gCQg6GHcFLMHks1aHEDJSsomdC2oNMYHEmOWP6zYrXnICiUN26FNz1_5avAcOIm7j4N1phuTx7t97jsYiVqOzkd7sEdbp9sJ_-kxziDZNbNrltZNZgvnyG5vCHoSrWg-RxFpYcuLCpyAjJABXqRujFPXeKqAxid2RXAVlvAEwTA=w293-h450",
+            "title":"Amor de Primavera",
+            "category": "Amor y Romance",
+            "price":150000,
+            "description":"Despliega un amanecer de alegría con este arreglo de rosas amarillas, un tributo a la amistad y la luz. Cada rosa, un rayo de sol capturado, se presenta en una caja elegante, lista para iluminar el día de alguien especial. Un regalo que trasciende lo ordinario, un símbolo de afecto y calidez que perdura en el tiempo"
+        },
+        {
+            "id":42,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEgZ0NNNH-CpRb2gmwGaClA5uROSr_gL3FlOqtWTKeM7haup53O2j1QQQjbOVrlOpLv7AdKGYrQ2NoEsUJtrLlhbH3dqm-JQmLZLc1X0_2_D1JIverWKRgLsF3ujOb4p3v-Z6rRS6Fvx5nbpacM0Tvtz6M0OloeMNUlgks8Ss87WBaosBvyVE6ptIGavQaM=w256-h402",
+            "title":"El Rincón de Papá",
+            "category": ["Aniversario","Feliz dia del Padre"],
+            "price":"??????",
+            "description":"Eleva la celebración del Día del Padre a otro nivel con este regalo que combina la alegría de un globo azul con un mensaje especial, el sabor de chocolates selectos, una bebida refrescante y un toque de naturaleza. Un conjunto que celebra la conexión y la alegría de compartir momentos especiales con papá"
+        },
+        {
+            "id":43,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEiLd_IpdxnHCAxT48trJ0aTMYq1_ecURy9Yfz7QPwjy14RN0ATRfJLFOFtmhMpreZX55nJUZMmzMZHgLviYA7NiPd07Vtuz_VcfMyShUZQeE9-iJDbmxlNQ9u5FxrjtSmoyWA-46K6OUIgq871LC-qX9DnJk90cJtlZnMyLeRlC2pj1GhEfwTk6m3DokIQ=w206-h484",
+            "title":"El Tesoro de El",
+            "category": ["Feliz dia del Padre","Aniversario"],
+            "price":"??????",
+            "description":"Eleva la celebración del Día del Padre a un nivel épico con este regalo que combina la alegría de un globo con un mensaje especial, la frescura de una cerveza artesanal, el toque dulce de chocolates selectos y la calidez de un girasol. Un conjunto que celebra la conexión y la alegría de compartir momentos especiales con papá, presentados de una manera original y divertida."
+        },
+        {
+            "id":44,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEicaCdAN99erEBw4eboJQQH-E8OsqKg-NfuK6HeWO5jS1emfwcQA7h3Tiev2kgnh17v8h3So-G4QO_uMZJMkIx-vJ9MdtDD7qMZsBaTGT17sOLfBwgYZKjLnr--thn0kBPhzVp0DZdwvzUD--b2cuCqRRxQCSip-ZiNFgKwJ8mARd37Hu2i9M12cXbVnks=w381-h423",
+            "title":"ChocoRamo",
+            "category": ["Aniversario","Simplemente por que si"],
+            "price":"??????",
+            "description":"Prepárate para un viaje sensorial inolvidable con este ramo que desafía lo convencional. Un festín para la vista y el paladar, donde la elegancia de los chocolates selectos se fusiona con la alegría de los dulces variados. Un regalo que despierta emociones, crea recuerdos imborrables y celebra la magia de los momentos especiales"
+        },
+        {
+            "id":45,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEhZPfwuYB2jknIPR_kLh2tYCbJ8hmCdrx3ov2D5r5cFkW7t-YLlLdw458K6OAESdUnfUcbC3u2wOen7Ql4kAybNYnmZ6_kvCnmuR9YCG2OK8wQ99M9KhEe2_SKcxRqH35Uvv2h9TtgNYzI-7jWbKZfOOS2PYQ10BdsyzUwEe9dXoqJUc1vYaiE4zD4RI4A=w373-h416",
+            "title":"Dulce Romance",
+            "category": ["Amor y Romance","Simplemente por que si"],
+            "price":"??????",
+            "description":"ste regalo es una combinación perfecta de elegancia, dulzura y sabor, ideal para sorprender a alguien especial en cualquier ocasión. Presentado en una bandeja de madera, este conjunto incluye una botella de Baileys Original Irish Cream, rosas rojas y dulces variados"
+        },
+        {
+            "id":46,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEgnzWLYLwr2bwDAKLngj_GBhteBxA7bM0qT3c4UCw5XFkMkOql24vHiYDhcx9m5KIgp7CbEWMv8N5BJke-xnF17EYsTDkgSufOWElQniz3oCAHWhYU8CevaCcbhysO6wUepKuas0M-siRq0KemI8KG8Ypkc44QLyJQEZsS8zEBLteMuU1FLgJSQanA0M4g=w284-h448",
+            "title":"",
+            "category": ["Amor y Romance","Feliz dia de la Madre"],
+            "price":"??????",
+            "description":"Este arreglo floral es una explosión de color y alegría, diseñado para cautivar y emocionar. Combina la pasión de las rosas rojas con la vitalidad de los girasoles, creando un contraste vibrante y armonioso. El diseño en dos niveles, con un cilindro central decorado, añade un toque de originalidad y elegancia. Además, la presencia de un peluche aporta un toque de ternura y calidez al conjunto"
+        },
+        {
+            "id":47,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEhzc5JdsPbykYLjfr-UeChPr2peXkKO5beZX27ARMopWyfyY_16CC0iI8TryNjf9YSGWESiBp7X-DYMmZZLsxYoyizyTEyTfEUtOXg2pQxHvngyPQHh9a3j9qyyfjUKpud24ym1-aaTeiVR-uO9rlkrNI-OQuq53O6M5kkvFRqeDomDHv3766UvAGkr6Es=w309-h488",
+            "title":"",
+            "category": "Feliz dia de la Madre",
+            "price":"??????",
+            "description":"Este regalo es una combinación exquisita de elegancia, dulzura y celebración, ideal para sorprender a alguien especial en cualquier ocasión. Presentado en una caja rectangular, este conjunto incluye rosas rojas, una botella de champán rosado, chocolates Ferrero Rocher y un paquete de M&M's"
+        },
+        {
+            "id":48,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEi2DmwdFLYEhkMFxaVlPTwqh81rFO69PvhGzVXrZd4aQmW1ad_UbozYRU7gNNs_Gi7lGiTEMfqb7evfJDL8ov83Vq_y25NiWf-8cQJmBZ5M15M4vIclTBLWRfgcWAUY4t1tl0X1RU6DyWuTk380pjGTHJJX-5qAgIDHCjNZGnAySwgRzo867c_I9hHYf1g=w309-h424",
+            "title":"",
+            "category": ["Amor y Romance","Feliz dia de la Madre"],
+            "price":"??????",
+            "description":"Este regalo es una expresión de ternura y delicadeza, ideal para sorprender a alguien especial en cualquier ocasión. Presentado en una elegante caja negra con un corazón troquelado, este conjunto incluye rosas rosadas, un envoltorio de tela y un lazo a juego"
+        },
+        {
+            "id":49,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEjZnrcsOV_xyCTLz_nduisJEiOneIMBIq8AqYdH2cDBq9I12PKfOQ2I-lqtj7Rr9dFY1U5h5ZuRtBBjFZNL5cbrSsCBmkt2ZNArGf_Mv4xn7z-Uu4Vw-AF28iZCwimy0RLxLRUtf09rJMqJo_Pa_heHOYbo5uoiXLWCqKGIQOTETvkNSQGqQKWtBeNxETA=w368-h516",
+            "title":"",
+            "category": "Feliz dia de la Madre",
+            "price":"??????",
             "description":""
         },
         {
-            "id":"",
-            "image":"",
+            "id":50,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEiqViE-TGRbukL8P1tK4hCgRo_Lu4hzQ_7RBLkgIDlt65LUvVIiiDVE18Dwr34wwo9iVwq-otPGzI_dsRdRXxbFwApIRFf7NtM07U0c_VPQCIKzW0tqXH8wmubXqysyft6DpjO3bVP0trN-mrchgpHXI4ZPZYMlJX-kvdlo2AegsC5ulTbM9mSeqgmq7nk=w352-h442",
             "title":"",
-            "price":"",
-            "description":""
+            "category": "Feliz dia de la Madre",
+            "price":"??????",
+            "description":"Este ramo de girasoles es una explosión de alegría y vitalidad, perfecto para iluminar cualquier ocasión. Combina la calidez de los girasoles con la delicadeza de las flores moradas y el toque fresco del eucalipto, creando un contraste armonioso y vibrante. El envoltorio en tonos pastel añade un toque de suavidad y elegancia al conjunto."
         }
         
     ] 

@@ -10,7 +10,7 @@ import './App.css'
 function App() {
   return (
     <ShoppingCartProvider>
-      <section className='App bg-rose-500'>
+      <section className='App '>
         <BrowserRouter>
           <AppRoutes/> 
           <Navbar/>

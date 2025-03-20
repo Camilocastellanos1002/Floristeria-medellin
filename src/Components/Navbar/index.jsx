@@ -6,7 +6,10 @@ import { ShoppingCartIcon, Bars4Icon} from '@heroicons/react/24/solid'
 
 function Navbar() {
 
-    const activeStyle = 'underline underline-offset-4'
+    const activeStyle = 'underline underline-offset-4 decoration-2 decoration-rose-500'
+    const activeStyle2 = 'bg-gradient-to-b bg-rose-500 text-lg font-bold text-white p-2 rounded-lg drop-shadow-2xl gap-2'
+    // const activeStyle2 = 'bg-gradient-to-b bg-rose-500 from-opacity-5 via-rose-400 to-gray-300 to-opacity-5 text-lg font-bold text-white p-2 rounded-lg drop-shadow-2xl gap-2'
+  
 
     const context = useContext(ShoppingCartContext);
 
@@ -20,8 +23,8 @@ function Navbar() {
      <>
         <nav className='flex justify-between flex-nowrap items-center fixed z-10 top-0 w-full py-1 px-1 text-5m font-light bg-white'>
             <section className='flex items-center gap-2'>
-                <NavLink to='/home'>
-                  <img src='/src/assets/logo.png' width='100' alt='' />    
+                <NavLink to='/'>
+                  <img src='/src/assets/logo.png' width='100' alt='' className='hover:scale-110'/>    
                 </NavLink>
                 <Bars4Icon 
                     className='h-6 w-6 text-rose-500 cursor-pointer ml-2 mt-3'
@@ -103,6 +106,39 @@ function Navbar() {
                         </li>
                         <li>
                             <NavLink 
+                                to='/store/simplemente-por-que-si'
+                                onClick={ ()=>{context.setSearchByCategory('toys')}}
+                                className={
+                                    ({isActive})=>
+                                        isActive ? activeStyle : undefined
+                                }>
+                                Simplemente por que sí
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink 
+                                to='/store/dia-de-la-madre'
+                                onClick={ ()=>{context.setSearchByCategory('toys')}}
+                                className={
+                                    ({isActive})=>
+                                        isActive ? activeStyle : undefined
+                                }>
+                                Dia de la Madre
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink 
+                                to='/store/dia-del-padre'
+                                onClick={ ()=>{context.setSearchByCategory('toys')}}
+                                className={
+                                    ({isActive})=>
+                                        isActive ? activeStyle : undefined
+                                }>
+                                Dia del Padre
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink 
                                 to='/store/desayunos'
                                 onClick={ ()=>{context.setSearchByCategory('electronics')}}
                                 className={
@@ -115,13 +151,13 @@ function Navbar() {
                     </ul>
                 </section>
             )} 
-            <ul className='flex items-center gap-2'>
+            <ul className='flex items-center gap-2 '>
                 <li>
                     <NavLink 
                         to={'/contact-us'}
                         className={
                             ({isActive})=>
-                                isActive ? activeStyle : undefined
+                                isActive ? activeStyle2 : undefined
                         }>
                         Contactanos
                     </NavLink>
@@ -131,7 +167,7 @@ function Navbar() {
                         to={'/satisfied-customers'}
                         className={
                             ({isActive})=>
-                                isActive ? activeStyle : undefined
+                                isActive ? activeStyle2 : undefined
                         }
                     >
                         Clientes satisfechos
@@ -142,7 +178,7 @@ function Navbar() {
                         to={'/register'}
                         className={
                                 ({isActive})=>
-                                    isActive ? activeStyle : undefined
+                                    isActive ? activeStyle2 : undefined
                             }>
                         Registrate
                     </NavLink>
@@ -152,7 +188,7 @@ function Navbar() {
                         to={'/sign-in'}
                         className={
                                 ({isActive})=>
-                                    isActive ? activeStyle : undefined
+                                    isActive ? activeStyle2 : undefined
                             }>
                         Sign in
                     </NavLink>
@@ -162,7 +198,7 @@ function Navbar() {
                       to={'/store'}
                       className={
                               ({isActive})=>
-                                  isActive ? activeStyle : undefined
+                                  isActive ? activeStyle2 : undefined
                             }>
                         Tienda
                     </NavLink>
@@ -172,7 +208,7 @@ function Navbar() {
                       to={'/your-purchases'}
                       className={
                               ({isActive})=>
-                                  isActive ? activeStyle : undefined
+                                  isActive ? activeStyle2 : undefined
                             }>
                         Tus Compras
                     </NavLink>

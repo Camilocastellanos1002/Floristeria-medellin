@@ -19,17 +19,17 @@ function Shopping(){
 
     return (
         <Layout>
-            <section className='flex text-white items-center justify-center gap-3 relative w-80 mb-6'>
-                <Link to='/your-purchases' className='absolute left-0'>
+            <section className=' flex text-white items-center justify-center gap-3 relative w-80 mt-10 mb-4'>
+                <Link to='/your-purchases'>
                     <ChevronLeftIcon className='h-6 w-6 cursor-pointer'/>
                 </Link>
-                <h1>Tu Carrito de compras!</h1>
+                <h1 className='font-medium text-xl'>Tu Carrito de compras!</h1>
             </section>
-            <section className='flex flex-col w-200 justify-center'>
+            <section className='flex flex-col w-200 justify-center text-black'>
                 {
                     context.order && context.order.length > 0 && context.order?.[index]?.products.map(
                         (product)=>(
-                                <section className='border-2 p-2 rounded-lg m-2 border-black' key={product.id}>
+                                <section className='border-2 p-2 rounded-lg m-2 border-white' key={product.id}>
                                     <OrderCard
                                         id={product.id}
                                         title={product.title}

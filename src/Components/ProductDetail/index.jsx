@@ -24,11 +24,11 @@ function ProductDetail() {
       </section>
       <figure className='w-full h-full px-3 py-3 mt-10'>
         <img 
-          className='w-full h-full rounded-l-lg px-20' 
-          src={context.productToShow.images} alt={context.productToShow.title}>
+          className='w-full h-full rounded-xl px-20' 
+          src={context.productToShow.image} alt={context.productToShow.title}>
         </img>
         <p className='flex flex-col p-3 gap-2'>
-          <span className='font-medium text-2xl text-rose-500'>${context.productToShow.price}.000</span>
+          <span className='font-medium text-2xl text-rose-500'>${context.productToShow.price}</span>
           <span className='font-medium text-md'>{context.productToShow.title}</span>
           <span className='font-light text-sm justify-center'>{context.productToShow.description}</span>
         </p>

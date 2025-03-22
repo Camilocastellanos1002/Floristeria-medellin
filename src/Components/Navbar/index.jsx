@@ -52,7 +52,7 @@ function Navbar() {
                         <li>
                             <NavLink
                                 to='/store/amor-y-romance'
-                                onClick={ ()=>{context.setSearchByCategory('clothes')}}
+                                onClick={ ()=>{context.setSearchByCategory('amor-y-romance')}}
                                 className={
                                     ({isActive})=>
                                         isActive ? activeStyle : undefined
@@ -63,7 +63,7 @@ function Navbar() {
                         <li>
                             <NavLink 
                                 to='/store/cumpleaños'
-                                onClick={ ()=>{context.setSearchByCategory('electronics')}}
+                                onClick={ ()=>{context.setSearchByCategory('cumpleaños')}}
                                 className={
                                     ({isActive})=>
                                         isActive ? activeStyle : undefined
@@ -74,7 +74,7 @@ function Navbar() {
                         <li>
                             <NavLink 
                                 to='/store/aniversario'
-                                onClick={ ()=>{context.setSearchByCategory('furnitures')}}
+                                onClick={ ()=>{context.setSearchByCategory('aniversario')}}
                                 className={
                                     ({isActive})=>
                                         isActive ? activeStyle : undefined
@@ -85,7 +85,7 @@ function Navbar() {
                         <li>
                             <NavLink 
                                 to='/store/condolencias'
-                                onClick={ ()=>{context.setSearchByCategory('toys')}}
+                                onClick={ ()=>{context.setSearchByCategory('condolencias')}}
                                 className={
                                     ({isActive})=>
                                         isActive ? activeStyle : undefined
@@ -96,7 +96,7 @@ function Navbar() {
                         <li>
                             <NavLink 
                                 to='/store/grados'
-                                onClick={ ()=>{context.setSearchByCategory('clothes')}}
+                                onClick={ ()=>{context.setSearchByCategory('grados')}}
                                 className={
                                     ({isActive})=>
                                         isActive ? activeStyle : undefined
@@ -107,7 +107,7 @@ function Navbar() {
                         <li>
                             <NavLink 
                                 to='/store/simplemente-por-que-si'
-                                onClick={ ()=>{context.setSearchByCategory('toys')}}
+                                onClick={ ()=>{context.setSearchByCategory('simplemente-por-que-si')}}
                                 className={
                                     ({isActive})=>
                                         isActive ? activeStyle : undefined
@@ -118,7 +118,7 @@ function Navbar() {
                         <li>
                             <NavLink 
                                 to='/store/dia-de-la-madre'
-                                onClick={ ()=>{context.setSearchByCategory('toys')}}
+                                onClick={ ()=>{context.setSearchByCategory('dia-de-la-madre')}}
                                 className={
                                     ({isActive})=>
                                         isActive ? activeStyle : undefined
@@ -129,7 +129,7 @@ function Navbar() {
                         <li>
                             <NavLink 
                                 to='/store/dia-del-padre'
-                                onClick={ ()=>{context.setSearchByCategory('toys')}}
+                                onClick={ ()=>{context.setSearchByCategory('dia-del-padre')}}
                                 className={
                                     ({isActive})=>
                                         isActive ? activeStyle : undefined
@@ -140,7 +140,7 @@ function Navbar() {
                         <li>
                             <NavLink 
                                 to='/store/desayunos'
-                                onClick={ ()=>{context.setSearchByCategory('electronics')}}
+                                onClick={ ()=>{context.setSearchByCategory('desayunos')}}
                                 className={
                                     ({isActive})=>
                                         isActive ? activeStyle : undefined

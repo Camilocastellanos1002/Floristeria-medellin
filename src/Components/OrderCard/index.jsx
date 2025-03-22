@@ -47,7 +47,7 @@ function OrderCard({id,title, imageURL, price , handleDelete}){
                 {renderMinusIcon}
                 {renderCounterIcon}
                 {renderPlusIcon}
-                <p className='text-lg font-medium'>${price * quantity}.000</p>
+                <p className='text-lg font-medium'>$ {price * quantity}</p>
                 { renderTrashIcon }
             </section>
         </section>

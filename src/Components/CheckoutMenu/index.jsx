@@ -52,7 +52,7 @@ function CheckoutMenu(){
                                 key={product.id}
                                 id={product.id}
                                 title={product.title}
-                                imageURL={product.images}
+                                imageURL={product.image}
                                 price={product.price}
                                 handleDelete = {handleDelete}
                                 />
@@ -63,7 +63,7 @@ function CheckoutMenu(){
             <section className='px-2'>
                 <p className='flex justify-between items-center mb-2'>
                     <span className='font-light'>Total:</span>
-                    <span className='font-medium text-2xl'>${totalPrice(context.cardProducts)}.000</span>
+                    <span className='font-medium text-2xl'>${totalPrice(context.cardProducts)}</span>
                 </p>
                 <Link to='/your-purchases/last'>
                     <button 

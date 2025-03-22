@@ -62,9 +62,10 @@ function ShoppingCartProvider({children}){
                         return response.json()
                     }  
                 )
-                .then(  
+                .then(                      
                     //se retorna el valor de forma directa
                     (data) => setItems(data)
+
                 )
                 .catch(
                     (error) => console.log('error: '+ error)
@@ -84,16 +85,38 @@ function ShoppingCartProvider({children}){
         )
     }
 
+    /*
+        //funcion que filtrara los items por categoria
+        function filteredItemsByCategory(items, searchByCategory){
+            // console.log('items', items);      
+            return items?.filter(
+                (item)=>(
+                    item.category.toLowerCase().includes(searchByCategory.toLowerCase()) 
+                )
+            )
+        }
+    */
 
     //funcion que filtrara los items por categoria
-    function filteredItemsByCategory(items, searchByCategory){
-        // console.log('items', items);      
-        return items?.filter(
-            (item)=>(
-                item.category.name.toLowerCase().includes(searchByCategory.toLowerCase()) 
-            )
-        )
+    function filteredItemsByCategory(items, searchByCategory) {
+    
+        // Convertir 'kebab-case' a formato normal
+        const normalizedSearch = searchByCategory.replace(/-/g, " ").trim().toLowerCase();
+    
+        return items.filter((item) => {
+            if (!item.category) return false; // Excluir si no tiene categoría
+    
+            // Verificar si la categoría es un array o un string
+            if (Array.isArray(item.category)) {
+                return item.category.some(cat =>
+                    cat.trim().toLowerCase() === normalizedSearch
+                );
+            } else {
+                return item.category.trim().toLowerCase() === normalizedSearch;
+            }
+        });
     }
+    
 
     const filterBy =
         (searchType, items, searchByTitle, searchByCategory)=>{
@@ -133,6 +156,7 @@ function ShoppingCartProvider({children}){
             }
         },[items,searchByTitle,searchByCategory]
     )
+
     // console.log('searchByCategory: ',searchByCategory);
     // console.log('searchByTitle: ',searchByTitle);
     // console.log('filtereditems: ',filteredItems);

@@ -6,9 +6,10 @@ function ContactUs(){
 
     return (
         <>
-            context
-            <Layout className='bg-rose-500'>
-                <p className='message text-black'>Contactanos!</p>
+            <h1 className='flex justify-center items-center text-3xl text-rose-500 font-bold p-3 mt-25'>¡Hola!</h1>
+            <Layout>
+                <h2>Regalanos un mensaje!</h2>
+                <p className='message text-black'>nuestro numero es!</p>
             </Layout>    
         
         </>

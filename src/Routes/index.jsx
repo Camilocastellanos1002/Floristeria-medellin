@@ -39,6 +39,13 @@ function AppRoutes (){
         { path: '/store/condolencias', element: <Store/>},
         { path: '/store/grados', element: <Store/>},
         { path: '/store/desayunos', element: <Store/>},
+        { path: '/store/simplemente-por-que-si', element: <Store/>},
+        { path: '/store/dia-de-la-madre', element: <Store/>},
+        { path: '/store/dia-del-padre', element: <Store/>},
+
+
+
+        
 
     ]);
     return(routes);

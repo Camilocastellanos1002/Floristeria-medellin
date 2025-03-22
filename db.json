@@ -1,5 +1,5 @@
 {
-    "floristeriaMedellin":[
+    "items":[
         {
             "id":1,
             "image" : "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQdAp_0QZJgCMWNvFd-lzlIFAsfDdZktv9HB-aKQ7krJFVxISOsw6Uspf6OgIhCVe05XjXa2-Ljf2OeP4BJWaWCO02hX1CIAMVz4R3U_bnhStl73nEZWN1Tt_ZDDdpKANwsbmkHDtkFIYdD7JjBUbmWfoGzjeN4-zF3fJ53U2XqtFbjcZNlzrAn1XexRM/s320/mi-gran-corazon.jpeg",
@@ -337,7 +337,7 @@
             "id":42,
             "image":"https://blogger.googleusercontent.com/img/a/AVvXsEgZ0NNNH-CpRb2gmwGaClA5uROSr_gL3FlOqtWTKeM7haup53O2j1QQQjbOVrlOpLv7AdKGYrQ2NoEsUJtrLlhbH3dqm-JQmLZLc1X0_2_D1JIverWKRgLsF3ujOb4p3v-Z6rRS6Fvx5nbpacM0Tvtz6M0OloeMNUlgks8Ss87WBaosBvyVE6ptIGavQaM=w256-h402",
             "title":"El Rincón de Papá",
-            "category": ["Aniversario","Feliz dia del Padre"],
+            "category": ["Aniversario","dia del Padre"],
             "price":"??????",
             "description":"Eleva la celebración del Día del Padre a otro nivel con este regalo que combina la alegría de un globo azul con un mensaje especial, el sabor de chocolates selectos, una bebida refrescante y un toque de naturaleza. Un conjunto que celebra la conexión y la alegría de compartir momentos especiales con papá"
         },
@@ -345,7 +345,7 @@
             "id":43,
             "image":"https://blogger.googleusercontent.com/img/a/AVvXsEiLd_IpdxnHCAxT48trJ0aTMYq1_ecURy9Yfz7QPwjy14RN0ATRfJLFOFtmhMpreZX55nJUZMmzMZHgLviYA7NiPd07Vtuz_VcfMyShUZQeE9-iJDbmxlNQ9u5FxrjtSmoyWA-46K6OUIgq871LC-qX9DnJk90cJtlZnMyLeRlC2pj1GhEfwTk6m3DokIQ=w206-h484",
             "title":"El Tesoro de El",
-            "category": ["Feliz dia del Padre","Aniversario"],
+            "category": ["dia del Padre","Aniversario"],
             "price":"??????",
             "description":"Eleva la celebración del Día del Padre a un nivel épico con este regalo que combina la alegría de un globo con un mensaje especial, la frescura de una cerveza artesanal, el toque dulce de chocolates selectos y la calidez de un girasol. Un conjunto que celebra la conexión y la alegría de compartir momentos especiales con papá, presentados de una manera original y divertida."
         },
@@ -369,7 +369,7 @@
             "id":46,
             "image":"https://blogger.googleusercontent.com/img/a/AVvXsEgnzWLYLwr2bwDAKLngj_GBhteBxA7bM0qT3c4UCw5XFkMkOql24vHiYDhcx9m5KIgp7CbEWMv8N5BJke-xnF17EYsTDkgSufOWElQniz3oCAHWhYU8CevaCcbhysO6wUepKuas0M-siRq0KemI8KG8Ypkc44QLyJQEZsS8zEBLteMuU1FLgJSQanA0M4g=w284-h448",
             "title":"",
-            "category": ["Amor y Romance","Feliz dia de la Madre"],
+            "category": ["Amor y Romance","dia de la Madre"],
             "price":"??????",
             "description":"Este arreglo floral es una explosión de color y alegría, diseñado para cautivar y emocionar. Combina la pasión de las rosas rojas con la vitalidad de los girasoles, creando un contraste vibrante y armonioso. El diseño en dos niveles, con un cilindro central decorado, añade un toque de originalidad y elegancia. Además, la presencia de un peluche aporta un toque de ternura y calidez al conjunto"
         },
@@ -377,7 +377,7 @@
             "id":47,
             "image":"https://blogger.googleusercontent.com/img/a/AVvXsEhzc5JdsPbykYLjfr-UeChPr2peXkKO5beZX27ARMopWyfyY_16CC0iI8TryNjf9YSGWESiBp7X-DYMmZZLsxYoyizyTEyTfEUtOXg2pQxHvngyPQHh9a3j9qyyfjUKpud24ym1-aaTeiVR-uO9rlkrNI-OQuq53O6M5kkvFRqeDomDHv3766UvAGkr6Es=w309-h488",
             "title":"",
-            "category": "Feliz dia de la Madre",
+            "category": "dia de la Madre",
             "price":"??????",
             "description":"Este regalo es una combinación exquisita de elegancia, dulzura y celebración, ideal para sorprender a alguien especial en cualquier ocasión. Presentado en una caja rectangular, este conjunto incluye rosas rojas, una botella de champán rosado, chocolates Ferrero Rocher y un paquete de M&M's"
         },
@@ -385,7 +385,7 @@
             "id":48,
             "image":"https://blogger.googleusercontent.com/img/a/AVvXsEi2DmwdFLYEhkMFxaVlPTwqh81rFO69PvhGzVXrZd4aQmW1ad_UbozYRU7gNNs_Gi7lGiTEMfqb7evfJDL8ov83Vq_y25NiWf-8cQJmBZ5M15M4vIclTBLWRfgcWAUY4t1tl0X1RU6DyWuTk380pjGTHJJX-5qAgIDHCjNZGnAySwgRzo867c_I9hHYf1g=w309-h424",
             "title":"",
-            "category": ["Amor y Romance","Feliz dia de la Madre"],
+            "category": ["Amor y Romance","dia de la Madre"],
             "price":"??????",
             "description":"Este regalo es una expresión de ternura y delicadeza, ideal para sorprender a alguien especial en cualquier ocasión. Presentado en una elegante caja negra con un corazón troquelado, este conjunto incluye rosas rosadas, un envoltorio de tela y un lazo a juego"
         },
@@ -393,7 +393,7 @@
             "id":49,
             "image":"https://blogger.googleusercontent.com/img/a/AVvXsEjZnrcsOV_xyCTLz_nduisJEiOneIMBIq8AqYdH2cDBq9I12PKfOQ2I-lqtj7Rr9dFY1U5h5ZuRtBBjFZNL5cbrSsCBmkt2ZNArGf_Mv4xn7z-Uu4Vw-AF28iZCwimy0RLxLRUtf09rJMqJo_Pa_heHOYbo5uoiXLWCqKGIQOTETvkNSQGqQKWtBeNxETA=w368-h516",
             "title":"",
-            "category": "Feliz dia de la Madre",
+            "category": "dia de la Madre",
             "price":"??????",
             "description":""
         },
@@ -401,10 +401,42 @@
             "id":50,
             "image":"https://blogger.googleusercontent.com/img/a/AVvXsEiqViE-TGRbukL8P1tK4hCgRo_Lu4hzQ_7RBLkgIDlt65LUvVIiiDVE18Dwr34wwo9iVwq-otPGzI_dsRdRXxbFwApIRFf7NtM07U0c_VPQCIKzW0tqXH8wmubXqysyft6DpjO3bVP0trN-mrchgpHXI4ZPZYMlJX-kvdlo2AegsC5ulTbM9mSeqgmq7nk=w352-h442",
             "title":"",
-            "category": "Feliz dia de la Madre",
+            "category": "dia de la Madre",
             "price":"??????",
             "description":"Este ramo de girasoles es una explosión de alegría y vitalidad, perfecto para iluminar cualquier ocasión. Combina la calidez de los girasoles con la delicadeza de las flores moradas y el toque fresco del eucalipto, creando un contraste armonioso y vibrante. El envoltorio en tonos pastel añade un toque de suavidad y elegancia al conjunto."
         }
         
-    ] 
+    ],
+    "publicityImages":[
+        {
+            "id":1,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEgaqaGHIT7cWqyj-Daw1iPe6EbEW7gJjsx4Fr7iIozpK_3lr2lbN50bScdIYNhxPkh7OL0-bHjdkMO2sv4mNdC6zC3XUJ1XnHh_qdnmjvB2s0NrNAC-HUa3TYWK_c1YGkKjf1OqpJ9oQaEOp2H-UsTIWoz65h3S5nbz5GXJRYJi0AERbWzhplavnaoi4ZU",
+            "category": "Fechas especiales"
+
+        },
+        {
+            "id":2,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEjeYQgRp8PHZskxMT8SPdDrikNToX5zwVSEar3MLx2L8-6Jzfd1gHNWVlNBlSVLGaTXYQE0-dYeN6gw7DiktEWoV1-_fZ52gZ6Zv2Y40mGTaPTh0dGfjTSU8FERPd01l42hBkE6rHNSwI0TUJbCcR52RzmT5sKZFzIdH3Wks8bvklPHkJUWtnOjwJreOAk",
+            "category": "Compartir un sentimiento"
+
+        },
+        {
+            "id":3,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEiadBRdE_UpFIxKRRk5Pxf_LuhWh9NyCQj4o_LRRiBGehrjdI3xgKewSMJFoVr5dC_QPtstXl1zQi1JataUfNbThIg_q2PpJWMrEv6ih1dP6wDukrgyCRs3LtoNlcONe2PEQGHx0HOZD1aUczR_nXpcBTmZe4VchyzAkUqhWX5dIZIKiLCWQLBTlJMdtAY",
+            "category": "Por que si"
+
+        },
+        {
+            "id":4,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEgb3BOrfmHm49vxW34JtuKJp2iWEYmcAOc47Hwg-rBFUsEg9vdpSV7-Bu9mn_rOcw2LQ7KKbdBexo4yEojja4iph7PvgYI30EfbpxL28-pAGJVRqbMdH3dZNoRoSIqYA6CaWBibxTF2m8NV0H-jCKa3sMvpXqgDT1D7Kyr4Zwnx19JJ2ZPOOqg_5oXaNyA",
+            "category": "Por que tal vez"
+
+        },
+        {
+            "id":5,
+            "image":"https://blogger.googleusercontent.com/img/a/AVvXsEgVEMcwOLFR_uCmUKeuc5EpypybUXUrcBYVb_9vqpE44fKNw7nzrxnF4jnTDLEfe-ZobDzhOqbHQKmSbmLjFSTAqUT3G49Dqp0E_519d6V4BdRsOqjoBjeshy1OwvZsBRM9QOWmz5ag9p1OvGIQ3ZJ3yeMX4pwweHZ7OzKhoP88_HP55MSEJh1f-AaFK7E",
+            "category": "Mucho mas..."
+    
+        }
+    ]
 }

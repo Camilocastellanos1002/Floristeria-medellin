@@ -11,7 +11,7 @@
         {
             "id":2,
             "image":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirTGqF_MsW6N1nDhEEyI3Y4BfuQLk2cYQ1t6jfaYWrvdVye0xPeYkw5CFK-J483JOkivmiYpvm0GhvTeU8wekjkHqc-mrB7AVAu6UJjLK01635TeTDBTZxB_KqF2sliK19YbWgy51Om6Z_qLHzVMZBi4d_SUPvEza_FE6mH5AX5K4Bg_NRm-r_nlsvdtY/s320/rosas-caja-corazon.jpeg",
-            "title":"Eres Mi Todo para Mi",
+            "title":"Eres Mi Todo",
             "category": "Amor y Romance",
             "price":800000,
             "description":"Este arreglo floral en forma de corazón es una explosión de color y emoción, diseñado para sorprender y emocionar. Las rosas rojas, símbolo de amor y pasión, se combinan con el toque dulce de los bombones, creando un regalo que es mucho más que flores. Es una declaración de amor, un gesto de cariño, una sorpresa inolvidable que hablará directamente al corazón de quien lo reciba, recordándole que es el centro de tu universo."
@@ -417,13 +417,13 @@
         {
             "id":2,
             "image":"https://blogger.googleusercontent.com/img/a/AVvXsEjeYQgRp8PHZskxMT8SPdDrikNToX5zwVSEar3MLx2L8-6Jzfd1gHNWVlNBlSVLGaTXYQE0-dYeN6gw7DiktEWoV1-_fZ52gZ6Zv2Y40mGTaPTh0dGfjTSU8FERPd01l42hBkE6rHNSwI0TUJbCcR52RzmT5sKZFzIdH3Wks8bvklPHkJUWtnOjwJreOAk",
-            "category": "Compartir un sentimiento"
+            "category": "Compartir  y demostrar un sentimiento"
 
         },
         {
             "id":3,
             "image":"https://blogger.googleusercontent.com/img/a/AVvXsEiadBRdE_UpFIxKRRk5Pxf_LuhWh9NyCQj4o_LRRiBGehrjdI3xgKewSMJFoVr5dC_QPtstXl1zQi1JataUfNbThIg_q2PpJWMrEv6ih1dP6wDukrgyCRs3LtoNlcONe2PEQGHx0HOZD1aUczR_nXpcBTmZe4VchyzAkUqhWX5dIZIKiLCWQLBTlJMdtAY",
-            "category": "Por que si"
+            "category": "Simplemente por que si"
 
         },
         {

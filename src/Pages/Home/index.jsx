@@ -6,6 +6,9 @@ import { NavLink } from "react-router-dom";
 import { Footer } from "../../Components/Footer";
 import { GoogleMapApi } from "../../Components/GoogleMapApi";
 
+import domiciliosImage from '../../assets/domis_con_logo.png'
+import horariosImage from '../../assets/contactus.png'
+
 function Home(){
 
     //leey usar el contexto global
@@ -30,15 +33,15 @@ function Home(){
         setCurrent((prev) => (prev === 0 ? randomProducts.length - 1 : prev - 1));
     };
 
-    // Función para obtener 3 productos aleatorios
+    // Función para obtener 5 productos aleatorios
     const getRandomProducts = (products) => {
         if (!products || products.length === 0) return []; // Si no hay productos, devuelve un array vacío.
 
         // Mezcla aleatoriamente el array de productos usando sort() con una función aleatoria.
         const shuffled = [...products].sort(() => 0.5 - Math.random());
 
-        // Retorna los primeros 3 elementos del array mezclado.
-        return shuffled.slice(0, 5); // Toma los primeros 3
+        // Retorna los primeros 5 elementos del array mezclado.
+        return shuffled.slice(0, 5); // Toma los primeros 5
     };
 
     // Función para obtener datos de publicityImages desde db.json
@@ -136,6 +139,45 @@ function Home(){
                         </section>
                     </section>
                 </section>
+            </Layout>
+            <section className='grid grid-cols-2 justify-items-center items-center m-3 p-3'>
+                <section>
+                    <section className='grid grid-rows-2 justify-start text-rose-500 gap-5'>
+                        <h1 className='flex justify-center items-center text-3xl text-rose-500 font-extrabold'>Domicilios</h1>
+                        <p className="flex items-center font-light space-x-2 gap-1">
+                            <span className='font-bold text-lg bg-rose-500 text-white rounded-lg p-1'>¡Lleva la belleza de las flores a donde quieras!</span>,hacemos llegar tus momentos especiales directamente a tu puerta.
+                        </p>
+                    </section>
+                </section>
+                <section className='flex items-end rounded-full bg-white w-180 h-150'>
+                    <img src={domiciliosImage} alt="domicilios" className="w-full h-full justify-center items-center" />
+                </section>
+            </section>
+            <Layout>
+            <section className='grid grid-cols-2 justify-items-end items-center m-3 p-3'>
+                <section className='flex items-start rounded-full bg-white w-150 h-130'>
+                    <img src={domiciliosImage} alt="domicilios" className="w-full h-full justify-center items-center" />
+                </section>
+                <section>
+                    <section className='grid grid-rows-2 justify-start text-white gap-5 font-bold'>
+                        <h1 className='flex justify-center items-center text-3xl font-extrabold'>Horarios</h1>
+                        <section className="grid grid-cols-2 gap-20 text-xl">
+                            <ul>
+                                <li>Lunes a Viernes</li>
+                                <li>Sabados </li>
+                                <li>Domingos </li>
+
+                            </ul>
+                            <ul>
+                                <li>7 am - 6 pm</li>
+                                <li>7 am - 3 pm</li>
+                                <li>7 am - 12 m</li>
+                            </ul>
+                        </section>
+                        
+                    </section>
+                </section>
+            </section>
             </Layout>
             <h1 className='flex justify-center items-center text-3xl text-rose-500 font-extrabold mt-3'>Visitanos</h1>
             <Layout>
